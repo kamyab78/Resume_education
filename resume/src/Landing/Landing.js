@@ -25,6 +25,13 @@ class Landing extends Component {
             $("#skill").click(function () {
                 var elmnt = document.getElementById("skill_page");
                 elmnt.scrollIntoView({ behavior: 'smooth' });
+                $('#row_one').fadeOut('slow')
+                setTimeout(function() { 
+                    $('#row_two').fadeOut('slow')
+                }, 200);
+                setTimeout(function() { 
+                    $('#row_three').fadeOut('slow')
+                }, 400);
             })
             $("#hobbi").click(function () {
                 var elmnt = document.getElementById("hobbi_page");
@@ -34,9 +41,9 @@ class Landing extends Component {
     }
     render() {
         return (
-            <div class="row" style={{backgroundColor:'#f7f7f7'}}>
+            <div class="row" style={{ backgroundColor: '#f7f7f7' }}>
                 <div class="col-2 nav_class">
-                    <div class="nav flex-column nav-pills nav_class" id="v-pills-tab" role="tablist" aria-orientation="vertical" style={{textAlign:'center'}}>
+                    <div class="nav flex-column nav-pills nav_class" id="v-pills-tab" role="tablist" aria-orientation="vertical" style={{ textAlign: 'center' }}>
                         <a class="nav-link" id="about" data-toggle="pill" role="tab" aria-controls="v-pills-home" aria-selected="true">About</a>
                         <a class="nav-link" id="education" data-toggle="pill" role="tab" aria-controls="v-pills-profile" aria-selected="false">Education</a>
                         <a class="nav-link" id="work" data-toggle="pill" role="tab" aria-controls="v-pills-messages" aria-selected="false">Work Exprience</a>
@@ -52,10 +59,10 @@ class Landing extends Component {
                                 <div className='land_dark'>
                                     <div className='center'>
 
-                                        
+
                                         <h1 className='name'> I'm Maryam Ghassemi</h1>
                                         <div >
-                                            
+
                                             <img src={Linkedin} className='icon'></img>
                                             <img src={Email} className='icon'></img>
                                             <img src={Skype} className='icon'></img>
@@ -64,15 +71,15 @@ class Landing extends Component {
                                     </div>
 
                                 </div></div>
-                                <div  id='about_page' className='about'>
-                                
-                                </div>
-                            <p id='education_page' className='education'> Education  ScrolSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
+                            <div id='about_page row' className='about'>
+
+                            </div>
+                            <p id='education_page row' className='education'> Education  ScrolSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
                             ggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgcSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
                             ggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgcSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
                             ggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgcSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
                              ggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgcl down the page to see the result.</p>
-                            <p id='work_page' className='work'>  Work  Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
+                            <p id='work_page row' className='work'>  Work  Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
                             ggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgcccccccccccccccccccccccccusSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
                             ggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgcSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
                             ggggggggggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgcSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
@@ -82,88 +89,88 @@ class Landing extends Component {
                             ggggggggggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgcSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
                             ggggggggggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgcSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
                             ggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgc.</p>
-                            <div id='skill_page' className='skill'>
-                               
-<h1 style={{borderBottomColor:'black' , borderBottomStyle:'solid' ,marginLeft:'100px', paddingTop:'120px ' , textAlign:'center' , width:'80%'}}>Skills</h1>
-<h1 style={{fontSize:'25px' , marginLeft:'140px' , marginTop:'20px'}}>progamming language</h1>
-<div className='row_one'>
-    <div className='java'>
-    <h1>Java</h1>
-    <div className='one' style={{marginLeft:'30px'}}></div>
-    <div className='two'></div>
-    <div className='three'></div>
-    <div className='four'></div>
-    <div className='five'></div>
-</div>
-<div className='kotlin'>
-    <h1>Kotlin</h1>
-    <div className='one' style={{marginLeft:'30px'}}></div>
-    <div className='two'></div>
-    <div className='three'></div>
-    <div className='four'></div>
-    <div className='five' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-</div>
-<div className='cpp'>
-    <h1>C/C++</h1>
-    <div className='one' style={{marginLeft:'40px'}}></div>
-    <div className='two'></div>
-    <div className='three'></div>
-    <div className='four' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-    <div className='five' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-</div>
-</div>
+                            <div id='skill_page row' className='skill'>
+
+                                <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '80%' }}>Skills</h1>
+                                <h1 style={{ fontSize: '25px', marginLeft: '140px', marginTop: '20px' }}>Progamming Language</h1>
+                                <div className='row_one' id='row_one'>
+                                    <div className='java'>
+                                        <h1>Java</h1>
+                                        <div className='one' style={{ marginLeft: '30px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four'></div>
+                                        <div className='five'></div>
+                                    </div>
+                                    <div className='kotlin'>
+                                        <h1>Kotlin</h1>
+                                        <div className='one' style={{ marginLeft: '30px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four'></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                    </div>
+                                    <div className='cpp'>
+                                        <h1>C/C++</h1>
+                                        <div className='one' style={{ marginLeft: '40px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                    </div>
+                                </div>
 
 
-<div className='row_one'>
-    <div className='java'>
-    <h1>Python</h1>
-    <div className='one'></div>
-    <div className='two'></div>
-    <div className='three'></div>
-    <div className='four' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-    <div className='five' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-</div>
-<div className='kotlin'>
-    <h1>Mathlab</h1>
-    <div className='one'></div>
-    <div className='two'></div>
-    <div className='three'></div>
-    <div className='four' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-    <div className='five' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-</div>
-<div className='cpp'>
-    <h1>Assembly</h1>
-    <div className='one'></div>
-    <div className='two'></div>
-    <div className='three'></div>
-    <div className='four' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-    <div className='five' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-</div>
-</div>
-<div className='row_one'>
-    <div className='java'>
-    <h1>Verilog</h1>
-    <div className='one' style={{marginLeft:'13px'}}></div>
-    <div className='two'></div>
-    <div className='three'></div>
-    <div className='four' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-    <div className='five' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-</div>
-<div className='kotlin'>
-    <h1>Vhdl</h1>
-    <div className='one' style={{marginLeft:'40px'}}></div>
-    <div className='two'></div>
-    <div className='three' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-    <div className='four' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-    <div className='five' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
-</div>
+                                <div className='row_one' id='row_two'>
+                                    <div className='java'>
+                                        <h1>Python</h1>
+                                        <div className='one'></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                    </div>
+                                    <div className='kotlin'>
+                                        <h1>Mathlab</h1>
+                                        <div className='one'></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                    </div>
+                                    <div className='cpp'>
+                                        <h1>Assembly</h1>
+                                        <div className='one'></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                    </div>
+                                </div>
+                                <div className='row_one' id='row_three'>
+                                    <div className='java'>
+                                        <h1>Verilog</h1>
+                                        <div className='one' style={{ marginLeft: '13px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                    </div>
+                                    <div className='kotlin'>
+                                        <h1>Vhdl</h1>
+                                        <div className='one' style={{ marginLeft: '40px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                    </div>
+                                   
+                                </div>
 
-</div>
-                          
+                                <h1 style={{ fontSize: '25px', marginLeft: '140px', marginTop: '50px' }}>Framework and Tecnical Program</h1>
 
-                                
                             </div>
-                            <p id='hobbi_page'className='hobbi'> Hobbi  Some text tSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
+                            <p id='hobbi_page' className='hobbi'> Hobbi  Some text tSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
                            </p>
                         </div>
                     </div>
