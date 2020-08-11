@@ -89,7 +89,7 @@ class Landing extends Component {
 <div className='row_one'>
     <div className='java'>
     <h1>Java</h1>
-    <div className='one'></div>
+    <div className='one' style={{marginLeft:'30px'}}></div>
     <div className='two'></div>
     <div className='three'></div>
     <div className='four'></div>
@@ -97,7 +97,7 @@ class Landing extends Component {
 </div>
 <div className='kotlin'>
     <h1>Kotlin</h1>
-    <div className='one'></div>
+    <div className='one' style={{marginLeft:'30px'}}></div>
     <div className='two'></div>
     <div className='three'></div>
     <div className='four'></div>
@@ -105,7 +105,7 @@ class Landing extends Component {
 </div>
 <div className='cpp'>
     <h1>C/C++</h1>
-    <div className='one'></div>
+    <div className='one' style={{marginLeft:'40px'}}></div>
     <div className='two'></div>
     <div className='three'></div>
     <div className='four' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
@@ -143,7 +143,7 @@ class Landing extends Component {
 <div className='row_one'>
     <div className='java'>
     <h1>Verilog</h1>
-    <div className='one'></div>
+    <div className='one' style={{marginLeft:'13px'}}></div>
     <div className='two'></div>
     <div className='three'></div>
     <div className='four' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
@@ -151,7 +151,7 @@ class Landing extends Component {
 </div>
 <div className='kotlin'>
     <h1>Vhdl</h1>
-    <div className='one'></div>
+    <div className='one' style={{marginLeft:'40px'}}></div>
     <div className='two'></div>
     <div className='three' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
     <div className='four' style={{backgroundColor:'rgb(149, 56, 158,0.2)'}}></div>
