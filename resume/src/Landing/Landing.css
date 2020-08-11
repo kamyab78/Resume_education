@@ -2,10 +2,17 @@
  color: #A9A9A9;
    margin-left:20px;
    cursor: pointer;
+   text-align: center;
+   
+}
+.nav_class a:hover{
+  color: purple;
 }
 .nav_class{
     position: fixed;
-    margin-top: 20px; 
+    
+    margin-top: 10%;
+    text-align: center;
 }
 
   @media screen and (max-width: 870px) {
@@ -19,15 +26,15 @@
         position: fixed;
     }
   }
-  .about{
+  .land{
     background-image: url('./back.jpg');
       height: 780px;
      background-repeat: no-repeat;
      background-size: cover;
   }
-  .about_dark{
+  .land_dark{
     
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(365,365,365,0.7);
     width: 100%;
     height: 100%;
     margin:0;
@@ -42,22 +49,112 @@
 
 }
 .center{
- padding-top: 250px;
+ padding-top: 30%;
 line-height: 40px;
-
-  text-align: center;
+padding-left: 120px;
+  text-align: left;
 }
 .icon{
-  margin-left: 2px;
-  height: 30px;
-  width: 30px;
-  border-radius: 40px;
+  margin-left: 10px;
+  height: 25px;
+  width: 25px;
+
 }
-.hi{
-  font-size: 50px;
-  color: rgb(240, 248, 255);
-}
+
 .name{
-  font-size: 15px;
-  color: rgb(240, 248, 255 , 0.5);
+  font-size: 45px;
+  font-family:  cursive;
+ 
+  color: #100303;
+}
+.about{
+  height: 780px;
+  background-color: blue;
+}
+.education{
+  height: 780px;
+  background-color: purple;
+}
+.hobbi{
+  height: 780px;
+  background-color: black;
+}
+.skill{
+  height: 780px;
+ 
+}
+.skill_cart{
+  background-color: #100303;
+  width: 100%;
+  height: 80%;
+}
+.work{
+  height: 780px;
+  background-color: darkcyan;
+}
+.java{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.one{
+  height: 20px;
+  width: 20px;
+  background-color: #95389e;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+.two{
+  height: 20px;
+  width: 20px;
+  background-color: #95389e;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+.three{
+  height: 20px;
+  width: 20px;
+  background-color: #95389e;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+.four{
+  height: 20px;
+  width: 20px;
+  background-color: #95389e;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+.five{
+  height: 20px;
+  width: 20px;
+  border-radius: 100px;
+  margin-left: 10px;
+  background-color: rgb(149, 56, 158);
+}
+.java h1{
+  font-size: 20px;
+  margin-left: 200px;
+}
+.row_one{
+  display: flex;
+  flex-direction: row;
+}
+.kotlin{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.kotlin h1{
+  font-size: 20px;
+  margin-left: 50px;
+}
+.cpp{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.cpp h1{
+  font-size: 20px;
+  margin-left: 50px;
 }
