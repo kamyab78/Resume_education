@@ -134,7 +134,7 @@ padding-left: 120px;
 }
 .java h1{
   font-size: 20px;
-  margin-left: 200px;
+  margin-left: 220px;
 }
 .row_one{
   display: flex;
@@ -147,7 +147,7 @@ padding-left: 120px;
 }
 .kotlin h1{
   font-size: 20px;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 .cpp{
   display: flex;
@@ -156,16 +156,17 @@ padding-left: 120px;
 }
 .cpp h1{
   font-size: 20px;
-  margin-left: 50px;
+  margin-left: 70px;
 }
 .intelij{
+  
   display: flex;
   flex-direction: row;
   margin-top: 30px;
 }
 .intelij h1{
     font-size: 20px;
-    margin-left: 200px;
+    margin-left: 220px;
   
 }
 .spring{
@@ -175,5 +176,5 @@ padding-left: 120px;
 }
 .spring h1{
   font-size: 20px;
-  margin-left: 30px;
+  margin-left: 70px;
 }

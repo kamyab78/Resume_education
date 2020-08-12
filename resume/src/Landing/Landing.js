@@ -114,12 +114,12 @@ jbhvjgc
                             ggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgc.</p>
                             <div id='skill_page' className='skill'>
 
-                                <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '90%' }}>Skills</h1>
-                                <h1 style={{ fontSize: '25px', marginLeft: '140px', marginTop: '20px' , display:'none' }} id='title1'>Progamming Language</h1>
+                                <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Skills</h1>
+                                <h1 style={{ fontSize: '25px', marginLeft: '160px', marginTop: '20px' , display:'none' }} id='title1'>Progamming Language</h1>
                                 <div style={{ display:'none' }} className='row_one' id='row_one'>
                                     <div className='java'>
                                         <h1>Java</h1>
-                                        <div className='one' style={{ marginLeft: '30px' }}></div>
+                                        <div className='one' style={{ marginLeft: '80px' }}></div>
                                         <div className='two'></div>
                                         <div className='three'></div>
                                         <div className='four'></div>
@@ -127,7 +127,7 @@ jbhvjgc
                                     </div>
                                     <div className='kotlin'>
                                         <h1>Kotlin</h1>
-                                        <div className='one' style={{ marginLeft: '30px' }}></div>
+                                        <div className='one' style={{ marginLeft: '40px' }}></div>
                                         <div className='two'></div>
                                         <div className='three'></div>
                                         <div className='four'></div>
@@ -135,7 +135,7 @@ jbhvjgc
                                     </div>
                                     <div className='cpp'>
                                         <h1>C/C++</h1>
-                                        <div className='one' style={{ marginLeft: '40px' }}></div>
+                                        <div className='one' style={{ marginLeft: '70px' }}></div>
                                         <div className='two'></div>
                                         <div className='three'></div>
                                         <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
@@ -145,7 +145,7 @@ jbhvjgc
                                 <div style={{ display:'none' }} className='row_one' id='row_two'>
                                     <div className='java'>
                                         <h1>Python</h1>
-                                        <div className='one'></div>
+                                        <div className='one' style={{ marginLeft: '60px' }}></div>
                                         <div className='two'></div>
                                         <div className='three'></div>
                                         <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
@@ -153,7 +153,7 @@ jbhvjgc
                                     </div>
                                     <div className='kotlin'>
                                         <h1>Mathlab</h1>
-                                        <div className='one'></div>
+                                        <div className='one' style={{ marginLeft: '20px' }}></div>
                                         <div className='two'></div>
                                         <div className='three'></div>
                                         <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
@@ -161,7 +161,7 @@ jbhvjgc
                                     </div>
                                     <div className='cpp'>
                                         <h1>Assembly</h1>
-                                        <div className='one'></div>
+                                        <div className='one' style={{ marginLeft: '40px' }}></div>
                                         <div className='two'></div>
                                         <div className='three'></div>
                                         <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
@@ -171,7 +171,7 @@ jbhvjgc
                                 <div style={{ display:'none' }} className='row_one' id='row_three'>
                                     <div className='java'>
                                         <h1>Verilog</h1>
-                                        <div className='one' style={{ marginLeft: '13px' }}></div>
+                                        <div className='one' style={{ marginLeft: '63px' }}></div>
                                         <div className='two'></div>
                                         <div className='three'></div>
                                         <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
@@ -179,7 +179,7 @@ jbhvjgc
                                     </div>
                                     <div className='kotlin'>
                                         <h1>Vhdl</h1>
-                                        <div className='one' style={{ marginLeft: '40px' }}></div>
+                                        <div className='one' style={{ marginLeft: '50px' }}></div>
                                         <div className='two'></div>
                                         <div className='three' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
                                         <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
@@ -188,11 +188,11 @@ jbhvjgc
                                    
                                 </div>
 
-                                <h1 style={{ fontSize: '25px', marginLeft: '140px', marginTop: '50px' , display:'none'}} id='title2' >Framework and Tecnical Program</h1>
+                                <h1 style={{ fontSize: '25px', marginLeft: '160px', marginTop: '50px' , display:'none'}} id='title2' >Framework and Tecnical Program</h1>
                                 <div style={{ display:'none' }} className='row_one' id='row_four'>
                                     <div className='intelij'>
-                                        <h1 >Intelij IDE</h1>
-                                        <div className='one' style={{ marginLeft: '50px' }}></div>
+                                        <h1 >IntelijIDE</h1>
+                                        <div className='one' style={{ marginLeft: '53px' }}></div>
                                         <div className='two'></div>
                                         <div className='three'></div>
                                         <div className='four'></div>
@@ -222,7 +222,7 @@ jbhvjgc
                                         <div className='two'></div>
                                         <div className='three'></div>
                                         <div className='four'></div>
-                                        <div className='five'></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
                                     </div>
                                     <div className='spring'>
                                         <h1>Hibernate</h1>
@@ -230,7 +230,7 @@ jbhvjgc
                                         <div className='two'></div>
                                         <div className='three'></div>
                                         <div className='four'></div>
-                                        <div className='five'></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
                                     </div>
                                     <div className='cpp'>
                                         <h1>Git</h1>
@@ -238,7 +238,7 @@ jbhvjgc
                                         <div className='two'></div>
                                         <div className='three'></div>
                                         <div className='four' ></div>
-                                        <div className='five' ></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
                                     </div>
                                 </div>
                                 <div style={{ display:'none' }} className='row_one' id='row_six'>
@@ -248,23 +248,23 @@ jbhvjgc
                                         <div className='two'></div>
                                         <div className='three'></div>
                                         <div className='four'></div>
-                                        <div className='five'></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
                                     </div>
                                     <div className='spring'>
                                         <h1>React</h1>
                                         <div className='one' style={{ marginLeft: '43px' }}></div>
                                         <div className='two'></div>
                                         <div className='three'></div>
-                                        <div className='four'></div>
-                                        <div className='five'></div>
+                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
                                     </div>
                                     <div className='cpp'>
                                         <h1>Android</h1>
                                         <div className='one' style={{ marginLeft: '50px' }}></div>
                                         <div className='two'></div>
                                         <div className='three'></div>
-                                        <div className='four' ></div>
-                                        <div className='five' ></div>
+                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
                                     </div>
                                 </div>
                                 <div style={{ display:'none' }} className='row_one' id='row_seven'>
@@ -273,24 +273,24 @@ jbhvjgc
                                         <div className='one' style={{ marginLeft: '74px' }}></div>
                                         <div className='two'></div>
                                         <div className='three'></div>
-                                        <div className='four'></div>
-                                        <div className='five'></div>
+                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
                                     </div>
                                     <div className='spring'>
                                         <h1>Ubunto</h1>
                                         <div className='one' style={{ marginLeft: '32px' }}></div>
                                         <div className='two'></div>
                                         <div className='three'></div>
-                                        <div className='four'></div>
-                                        <div className='five'></div>
+                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
                                     </div>
                                     <div className='cpp'>
                                         <h1>Arm</h1>
                                         <div className='one' style={{ marginLeft: '80px' }}></div>
                                         <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four' ></div>
-                                        <div className='five' ></div>
+                                        <div className='three'style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
                                     </div>
                                 </div>
                                 <div style={{ display:'none' }} className='row_one' id='row_eight'>
@@ -298,9 +298,9 @@ jbhvjgc
                                         <h1>Prossecor Avr</h1>
                                         <div className='one' ></div>
                                         <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four'></div>
-                                        <div className='five'></div>
+                                        <div className='three' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
                                     </div>
                                 </div>
                             </div>
