@@ -68,7 +68,7 @@ padding-left: 120px;
   color: #100303;
 }
 .about{
-  height: 100%;
+  height: 100vh;
   background-color: blue;
 }
 .education{
@@ -89,7 +89,7 @@ padding-left: 120px;
   height: 80%;
 }
 .work{
-  height: 780px;
+  height: 100vh;
   background-color: darkcyan;
 }
 .java{
