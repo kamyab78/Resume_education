@@ -42,7 +42,7 @@ class Landing extends Component {
     render() {
         return (
             <div class="row" style={{ backgroundColor: '#f7f7f7' }}>
-                <div class="col-lg-2 col-xl-1 nav_class">
+                <div class="col-lg-2  nav_class">
                     <div class="nav flex-column nav-pills nav_class" id="v-pills-tab" role="tablist" aria-orientation="vertical" style={{ textAlign: 'center' }}>
                         <a class="nav-link" id="about" data-toggle="pill" role="tab" aria-controls="v-pills-home" aria-selected="true">About</a>
                         <a class="nav-link" id="education" data-toggle="pill" role="tab" aria-controls="v-pills-profile" aria-selected="false">Education</a>
@@ -51,7 +51,7 @@ class Landing extends Component {
                         <a class="nav-link" id="hobbi" data-toggle="pill" role="tab" aria-controls="v-pills-settings" aria-selected="false">Hobbies</a>
                     </div>
                 </div>
-                <div class="col-lg-10 col-xl-11">
+                <div class="col-lg-10 ">
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" >
 
