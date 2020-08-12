@@ -28,7 +28,7 @@
   }
   .land{
     background-image: url('./back.jpg');
-      height: 780px;
+    height: 100vh;
      background-repeat: no-repeat;
      background-size: cover;
   }
@@ -68,19 +68,19 @@ padding-left: 120px;
   color: #100303;
 }
 .about{
-  height: 780px;
+  height: 100%;
   background-color: blue;
 }
 .education{
-  height: 780px;
+  height: 100vh;
   background-color: purple;
 }
 .hobbi{
-  height: 780px;
+  height: 100vh;
   background-color: black;
 }
 .skill{
-  height: 780px;
+  height: 100vh;
  
 }
 .skill_cart{
