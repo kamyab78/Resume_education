@@ -80,7 +80,7 @@ padding-left: 120px;
   background-color: black;
 }
 .skill{
-  height: 100vh;
+  height: 120vh;
  
 }
 .skill_cart{
@@ -157,4 +157,23 @@ padding-left: 120px;
 .cpp h1{
   font-size: 20px;
   margin-left: 50px;
+}
+.intelij{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.intelij h1{
+    font-size: 20px;
+    margin-left: 200px;
+  
+}
+.spring{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.spring h1{
+  font-size: 20px;
+  margin-left: 30px;
 }

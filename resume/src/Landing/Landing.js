@@ -25,13 +25,36 @@ class Landing extends Component {
             $("#skill").click(function () {
                 var elmnt = document.getElementById("skill_page");
                 elmnt.scrollIntoView({ behavior: 'smooth' });
-                $('#row_one').fadeOut('slow')
-                setTimeout(function() { 
-                    $('#row_two').fadeOut('slow')
+                 setTimeout(function() { 
+                    $('#title1').fadeIn('slow')
                 }, 200);
                 setTimeout(function() { 
-                    $('#row_three').fadeOut('slow')
+                    $('#row_one').fadeIn('slow')
                 }, 400);
+                setTimeout(function() { 
+                    $('#row_two').fadeIn('slow')
+                }, 600);
+                setTimeout(function() { 
+                    $('#row_three').fadeIn('slow')
+                }, 800);
+                setTimeout(function() { 
+                    $('#title2').fadeIn('slow')
+                }, 1000);
+                setTimeout(function() { 
+                    $('#row_four').fadeIn('slow')
+                }, 1200);
+                setTimeout(function() { 
+                    $('#row_five').fadeIn('slow')
+                }, 1400);
+                setTimeout(function() { 
+                    $('#row_six').fadeIn('slow')
+                }, 1600);
+                setTimeout(function() { 
+                    $('#row_seven').fadeIn('slow')
+                }, 1800);
+                setTimeout(function() { 
+                    $('#row_eight').fadeIn('slow')
+                }, 2000);
             })
             $("#hobbi").click(function () {
                 var elmnt = document.getElementById("hobbi_page");
@@ -91,9 +114,9 @@ jbhvjgc
                             ggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgc.</p>
                             <div id='skill_page' className='skill'>
 
-                                <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '80%' }}>Skills</h1>
-                                <h1 style={{ fontSize: '25px', marginLeft: '140px', marginTop: '20px' }}>Progamming Language</h1>
-                                <div className='row_one' id='row_one'>
+                                <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '90%' }}>Skills</h1>
+                                <h1 style={{ fontSize: '25px', marginLeft: '140px', marginTop: '20px' , display:'none' }} id='title1'>Progamming Language</h1>
+                                <div style={{ display:'none' }} className='row_one' id='row_one'>
                                     <div className='java'>
                                         <h1>Java</h1>
                                         <div className='one' style={{ marginLeft: '30px' }}></div>
@@ -119,9 +142,7 @@ jbhvjgc
                                         <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
                                     </div>
                                 </div>
-
-
-                                <div className='row_one' id='row_two'>
+                                <div style={{ display:'none' }} className='row_one' id='row_two'>
                                     <div className='java'>
                                         <h1>Python</h1>
                                         <div className='one'></div>
@@ -147,7 +168,7 @@ jbhvjgc
                                         <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
                                     </div>
                                 </div>
-                                <div className='row_one' id='row_three'>
+                                <div style={{ display:'none' }} className='row_one' id='row_three'>
                                     <div className='java'>
                                         <h1>Verilog</h1>
                                         <div className='one' style={{ marginLeft: '13px' }}></div>
@@ -167,8 +188,121 @@ jbhvjgc
                                    
                                 </div>
 
-                                <h1 style={{ fontSize: '25px', marginLeft: '140px', marginTop: '50px' }}>Framework and Tecnical Program</h1>
-
+                                <h1 style={{ fontSize: '25px', marginLeft: '140px', marginTop: '50px' , display:'none'}} id='title2' >Framework and Tecnical Program</h1>
+                                <div style={{ display:'none' }} className='row_one' id='row_four'>
+                                    <div className='intelij'>
+                                        <h1 >Intelij IDE</h1>
+                                        <div className='one' style={{ marginLeft: '50px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four'></div>
+                                        <div className='five'></div>
+                                    </div>
+                                    <div className='spring'>
+                                        <h1>Spring</h1>
+                                        <div className='one' style={{ marginLeft: '40px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four'></div>
+                                        <div className='five'></div>
+                                    </div>
+                                    <div className='cpp'>
+                                        <h1>DataBase</h1>
+                                        <div className='one' style={{ marginLeft: '30px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four' ></div>
+                                        <div className='five' ></div>
+                                    </div>
+                                </div>
+                                <div style={{ display:'none' }} className='row_one' id='row_five'>
+                                    <div className='intelij'>
+                                        <h1>WebStorm</h1>
+                                        <div className='one' style={{ marginLeft: '40px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four'></div>
+                                        <div className='five'></div>
+                                    </div>
+                                    <div className='spring'>
+                                        <h1>Hibernate</h1>
+                                        <div className='one' ></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four'></div>
+                                        <div className='five'></div>
+                                    </div>
+                                    <div className='cpp'>
+                                        <h1>Git</h1>
+                                        <div className='one' style={{ marginLeft: '95px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four' ></div>
+                                        <div className='five' ></div>
+                                    </div>
+                                </div>
+                                <div style={{ display:'none' }} className='row_one' id='row_six'>
+                                    <div className='intelij'>
+                                        <h1>ReactNative</h1>
+                                        <div className='one' style={{ marginLeft: '27px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four'></div>
+                                        <div className='five'></div>
+                                    </div>
+                                    <div className='spring'>
+                                        <h1>React</h1>
+                                        <div className='one' style={{ marginLeft: '43px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four'></div>
+                                        <div className='five'></div>
+                                    </div>
+                                    <div className='cpp'>
+                                        <h1>Android</h1>
+                                        <div className='one' style={{ marginLeft: '50px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four' ></div>
+                                        <div className='five' ></div>
+                                    </div>
+                                </div>
+                                <div style={{ display:'none' }} className='row_one' id='row_seven'>
+                                    <div className='intelij'>
+                                        <h1>Socket</h1>
+                                        <div className='one' style={{ marginLeft: '74px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four'></div>
+                                        <div className='five'></div>
+                                    </div>
+                                    <div className='spring'>
+                                        <h1>Ubunto</h1>
+                                        <div className='one' style={{ marginLeft: '32px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four'></div>
+                                        <div className='five'></div>
+                                    </div>
+                                    <div className='cpp'>
+                                        <h1>Arm</h1>
+                                        <div className='one' style={{ marginLeft: '80px' }}></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four' ></div>
+                                        <div className='five' ></div>
+                                    </div>
+                                </div>
+                                <div style={{ display:'none' }} className='row_one' id='row_eight'>
+                                    <div className='intelij'>
+                                        <h1>Prossecor Avr</h1>
+                                        <div className='one' ></div>
+                                        <div className='two'></div>
+                                        <div className='three'></div>
+                                        <div className='four'></div>
+                                        <div className='five'></div>
+                                    </div>
+                                </div>
                             </div>
                             <p id='hobbi_page' className='hobbi'> Hobbi  Some text tSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
                            </p>
