@@ -93,7 +93,15 @@ cursor: pointer;
 }
 .work{
   height: 100vh;
-  background-color: darkcyan;
+
+}
+.vl {
+  border-left: 6px solid black;
+  height: 80vh;
+  position: absolute;
+  margin-top: 10vh;
+  margin-left: 60vh;
+ 
 }
 .java{
   display: flex;
@@ -180,4 +188,53 @@ cursor: pointer;
 .spring h1{
   font-size: 20px;
   margin-left: 70px;
+}
+.circle_one{
+  height: 70px;
+  width: 70px;
+  border: 6px solid black;
+  border-radius: 100px;
+  padding-right: 10px;
+  position: absolute;
+  margin-left: -40px;
+  background-color: #f7f7f7;
+
+}
+.circle_two{
+  height: 70px;
+  width: 70px;
+  border: 6px solid black;
+  border-radius: 100px;
+  padding-right: 10px;
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 38vh;
+  background-color: #f7f7f7;
+}
+.circle_three{
+  height: 70px;
+  width: 70px;
+  border: 6px solid black;
+  border-radius: 100px;
+  padding-right: 10px;
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 73vh;
+  background-color: #f7f7f7;
+}
+.yek{
+
+  margin-left: 50px;
+  position: absolute;
+margin-top: 1vh;
+}
+.do{
+position: absolute;
+margin-top: 39vh;
+margin-left: -200px;
+}
+.se{
+  position: absolute;
+  margin-top: 74vh;
+  margin-left: 50px;
 }
