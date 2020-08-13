@@ -7,6 +7,7 @@ import Linkedin from './linkedin-icon.png'
 import Email from './Other-Mail-Metro-icon.png'
 import Phone from './Phone-icon.png'
 import Skype from './Skype-icon.png'
+import Particles from 'react-particles-js';
 class Landing extends Component {
     componentDidMount() {
         $(document).ready(function () {
@@ -80,18 +81,48 @@ class Landing extends Component {
 
                             <div className='land'>
                                 <div className='land_dark'>
-                                    <div className='center'>
+                                    
+                                <Particles height='100vh'  
+        params={{
+            "particles": {
+                "number": {
+                    "value": 250
+                },
+                "size": {
+                    "value": 5
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onHover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    }
+                }
+            }
+        }}
+      >
+      
+          </Particles> 
+          <div className='center'>
 
 
-                                        <h1 className='name'> I'm Maryam Ghassemi</h1>
-                                        <div >
+<h1 className='name'> I'm Maryam Ghassemi</h1>
+<div >
 
-                                            <img src={Linkedin} className='icon'></img>
-                                            <img src={Email} className='icon'></img>
-                                            <img src={Skype} className='icon'></img>
-                                            <img src={Phone} className='icon'></img>
-                                        </div>
-                                    </div>
+    <img src={Linkedin} className='icon'></img>
+    <img src={Email} className='icon'></img>
+    <img src={Skype} className='icon'></img>
+    <img src={Phone} className='icon'></img>
+</div>
+
+</div>
+   
+   
+    
+                                 
+                               
+                                 
 
                                 </div></div>
                             <div id='about_page' className='about'>
