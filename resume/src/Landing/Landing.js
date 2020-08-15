@@ -106,7 +106,7 @@ class Landing extends Component {
               $(window).scroll(function(){
                 var height = $(window).scrollTop();
                 console.log(height)
-                if(height>=3621.875){
+                if(height>=3245.625){
                     setTimeout(function () {
                         $('#title1').fadeIn('slow')
                     }, 200);
