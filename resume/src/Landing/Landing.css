@@ -93,14 +93,14 @@ cursor: pointer;
 }
 .work{
   height: 100vh;
-
+background-color: #f0f2f7;
 }
 .vl {
   border-left: 4px solid grey;
-  height: 65vh;
+  height: 40vh;
   position: absolute;
   margin-top: 5vh;
-  margin-left: 60vh;
+  margin-left: 50%;
  
 }
 .java{
@@ -210,7 +210,7 @@ cursor: pointer;
   position: absolute;
   margin-left: -13px;
   z-index: 1;
-  margin-top: 32vh;
+  margin-top: 11vh;
   background-color: gray;
 }
 .circle_three{
@@ -221,7 +221,7 @@ cursor: pointer;
   padding-right: 10px;
   position: absolute;
   margin-left: -13px;
-  margin-top: 65vh;
+  margin-top: 40vh;
   background-color: gray;
 }
 .yek{
@@ -243,7 +243,7 @@ width: 400px;
   }
 .do{
 position: absolute;
-margin-top: 31vh;
+margin-top: 10vh;
 text-align: left;
 margin-left: -420px;
 height: 100px;
@@ -251,7 +251,7 @@ width: 370px;
 }
 .triangle1{
  
-  margin-top: 31vh;
+  margin-top: 10vh;
   position: absolute;
   margin-left: -50px;
     width: 0;
@@ -262,14 +262,14 @@ width: 370px;
   }
 .se{
   position: absolute;
-  margin-top: 64vh;
+  margin-top: 39vh;
   text-align: left;
   margin-left: 50px;
   height: 100px;
 width: 400px;
 }
 .triangle2{
-  margin-top: 64vh;
+  margin-top: 39vh;
   position: absolute;
   margin-left: 20px;
     width: 0;

@@ -65,40 +65,40 @@ class Landing extends Component {
                 window.open("https://www.linkedin.com/in/maryam-ghassemi-993085155/")
             })
             $(".yek").hover(function () {
-                $(this).css("background-color",  "rgb(67, 216, 201, 0.3)");
-                $(".circle_one").css("background-color", " #f3c623");
-                $(".circle_one").css("border", "4px solid #f3c623");
+                $(this).css("background-color",  "white");
+                $(".circle_one").css("background-color", "red");
+                $(".circle_one").css("border", "4px solid red");
                 $(".circle_one").css("z-index", "999");
-                $(".triangle").css("border-right", "30px solid  rgb(67, 216, 201, 0.3)");
+                $(".triangle").css("border-right", "30px solid  white");
 
                 }, function(){
-                $(this).css("background-color", "#f7f7f7");
+                $(this).css("background-color", "#f0f2f7");
                 $(".circle_one").css("background-color", "gray");
                 $(".circle_one").css("border", "4px solid gray");
                 $(".triangle").css("border-right", "30px solid transparent");
               });
               $(".do").hover(function () {
-                $(this).css("background-color",  "rgb(67, 216, 201, 0.3)");
-                $(".circle_two").css("background-color", " #f3c623");
-                $(".circle_two").css("border", "4px solid #f3c623");
+                $(this).css("background-color",  "white");
+                $(".circle_two").css("background-color", "red");
+                $(".circle_two").css("border", "4px solid red");
                 $(".circle_two").css("z-index", "999");
-                $(".triangle1").css("border-left", "30px solid  rgb(67, 216, 201, 0.3)");
+                $(".triangle1").css("border-left", "30px solid  white");
 
                 }, function(){
-                $(this).css("background-color", "#f7f7f7");
+                $(this).css("background-color", "#f0f2f7");
                 $(".circle_two").css("background-color", "gray");
                 $(".circle_two").css("border", "4px solid gray");
                 $(".triangle1").css("border-left", "30px solid transparent");
               });
               $(".se").hover(function () {
-                $(this).css("background-color",  "rgb(67, 216, 201, 0.3)");
-                $(".circle_three").css("background-color", " #f3c623");
-                $(".circle_three").css("border", "4px solid #f3c623");
+                $(this).css("background-color",  "white");
+                $(".circle_three").css("background-color", "red");
+                $(".circle_three").css("border", "4px solid red");
                 $(".circle_three").css("z-index", "999");
-                $(".triangle2").css("border-right", "30px solid  rgb(67, 216, 201, 0.3)");
+                $(".triangle2").css("border-right", "30px solid  white");
 
                 }, function(){
-                $(this).css("background-color", "#f7f7f7");
+                $(this).css("background-color", "#f0f2f7");
                 $(".circle_three").css("background-color", "gray");
                 $(".circle_three").css("border", "4px solid gray");
                 $(".triangle2").css("border-right", "30px solid transparent");
