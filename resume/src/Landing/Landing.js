@@ -61,6 +61,49 @@ class Landing extends Component {
                 var elmnt = document.getElementById("hobbi_page");
                 elmnt.scrollIntoView({ behavior: 'smooth' });
             })
+            $("#linkedin").click(function () {
+                window.open("https://www.linkedin.com/in/maryam-ghassemi-993085155/")
+            })
+            $(".yek").hover(function () {
+                $(this).css("background-color",  "rgb(67, 216, 201, 0.3)");
+                $(".circle_one").css("background-color", " #f3c623");
+                $(".circle_one").css("border", "4px solid #f3c623");
+                $(".circle_one").css("z-index", "999");
+                $(".triangle").css("border-right", "30px solid  rgb(67, 216, 201, 0.3)");
+
+                }, function(){
+                $(this).css("background-color", "#f7f7f7");
+                $(".circle_one").css("background-color", "gray");
+                $(".circle_one").css("border", "4px solid gray");
+                $(".triangle").css("border-right", "30px solid transparent");
+              });
+              $(".do").hover(function () {
+                $(this).css("background-color",  "rgb(67, 216, 201, 0.3)");
+                $(".circle_two").css("background-color", " #f3c623");
+                $(".circle_two").css("border", "4px solid #f3c623");
+                $(".circle_two").css("z-index", "999");
+                $(".triangle1").css("border-left", "30px solid  rgb(67, 216, 201, 0.3)");
+
+                }, function(){
+                $(this).css("background-color", "#f7f7f7");
+                $(".circle_two").css("background-color", "gray");
+                $(".circle_two").css("border", "4px solid gray");
+                $(".triangle1").css("border-left", "30px solid transparent");
+              });
+              $(".se").hover(function () {
+                $(this).css("background-color",  "rgb(67, 216, 201, 0.3)");
+                $(".circle_three").css("background-color", " #f3c623");
+                $(".circle_three").css("border", "4px solid #f3c623");
+                $(".circle_three").css("z-index", "999");
+                $(".triangle2").css("border-right", "30px solid  rgb(67, 216, 201, 0.3)");
+
+                }, function(){
+                $(this).css("background-color", "#f7f7f7");
+                $(".circle_three").css("background-color", "gray");
+                $(".circle_three").css("border", "4px solid gray");
+                $(".triangle2").css("border-right", "30px solid transparent");
+              });
+             
         })
     }
     render() {
@@ -115,7 +158,7 @@ class Landing extends Component {
                                         <h1 className='name'> I'm Maryam Ghassemi</h1>
                                         <div >
 
-                                            <img src={Linkedin} className='icon'></img>
+                                            <img id='linkedin' src={Linkedin} className='icon'></img>
                                             <img src={Email} className='icon'></img>
                                             <img src={Skype} className='icon'></img>
                                             <img src={Phone} className='icon'></img>
@@ -133,24 +176,37 @@ class Landing extends Component {
                             <div id='about_page' className='about'>
                                 jbhvjgc
                             </div>
-                            <p id='education_page' className='education'> Education  ScrolSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
-                            ggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgcSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
-                            ggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgcSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
-                            ggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgcSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
-                             ggggggggggggggggggggggggggggggggggggggggggggggggysdcyudsgcuysgdcyusgdcuygsyudcgusydgcl down the page to see the result.</p>
+                            <div id='education_page' className='education'>
+                                <div className='one_edu'></div>
+                                <h1 className='edu1'></h1>
+                                <div className='two_edu'></div>
+                                <h1 className='edu2'></h1>
+                            </div>
                             <div id='work_page' className='work'>
+                            <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Work Exprience</h1>
                             <div class="vl">
                                 <div >
                                     <div className='circle_one'></div>
-                                    <h1 className='yek'>sherkat1</h1>
+                                    <div className='triangle'></div>
+                                    <div className='yek'>
+                                    <h1 style={{fontSize:'38px' , lineHeight:'50px' , fontWeight:'bold'}}>Internship Trainee</h1>
+                                        <h1 style={{fontSize:'20px'}}>Fanap . Jul2018 - Sep2018</h1>
+                                        
+                                    </div>
                                 </div>
                                 <div >
                                 <div className='circle_two'></div>
-                                    <h1 className='do'>sherkat2</h1>
+                                <div className='triangle1'></div>
+                                    <div className='do'><h1 style={{fontSize:'38px' , lineHeight:'50px', fontWeight:'bold'}}>BackEnd Developer</h1>
+                                        <h1 style={{fontSize:'20px'}}>Awans . Oct2018 - Jan2020</h1>
+                                        </div>
                                 </div>
                                 <div >
                                 <div className='circle_three'></div>
-                                    <h1 className='se'>sherkat3</h1>
+                                <div className='triangle2'></div>
+                                    <div className='se'>   <h1 style={{fontSize:'38px' , lineHeight:'50px',fontWeight:'bold'}}>BackEnd Developer</h1>
+                                        <h1 style={{fontSize:'20px'}}>Tapsell . Apr2020 - Now</h1>
+                                        </div>
                                 </div>
 
                                 
