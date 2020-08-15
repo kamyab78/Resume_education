@@ -105,8 +105,10 @@ class Landing extends Component {
               });
               $(window).scroll(function(){
                 var height = $(window).scrollTop();
+                var sp = document.getElementById("skill_page");
+                console.log(sp.offsetTop)
                 console.log(height)
-                if(height>=3245.625){
+                if(height>=sp.offsetTop-500){
                     setTimeout(function () {
                         $('#title1').fadeIn('slow')
                     }, 200);
