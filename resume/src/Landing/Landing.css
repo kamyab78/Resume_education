@@ -76,7 +76,7 @@ cursor: pointer;
 }
 .education{
   height: 100vh;
-
+background-color: rgb(128, 128, 128,0.1);
 }
 .hobbi{
   height: 100vh;
@@ -312,38 +312,101 @@ text-align: center;
   margin-left: 30px;
 }
 .edu1{
+  z-index: 999;
+  position: absolute;
+ 
+  margin-left: 15px;
+  margin-top: 15px;
+  height: 150px;
+  width: 950px;
+  text-align: left;
+  font-size: 22px;
+}
+.edu1_1{
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 15px;
+  height: 150px;
+  width: 910px;
+  text-align: left;
+  font-size: 19px;
+}
+.edu1_2{
+  position: absolute;
+  margin-top: 103px;
+  margin-left: 15px;
+  height: 150px;
+  width: 910px;
+  text-align: left;
+  font-size: 19px;
+}
+.edu2{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 150px;
+  width: 950px;
+  text-align: left;
+  font-size: 22px;
+}
+.edu2_1{
+  position: absolute;
+  margin-top: 52px;
+  margin-left: 15px;
+  height: 150px;
+  width: 950px;
+  text-align: left;
+  font-size: 19px;
+}
+.edu2_2{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 15px;
+  height: 150px;
+  width: 950px;
+  text-align: left;
+  font-size: 19px;
+}
+.h1_edu1{
   position: absolute;
   margin-top: 270px;
   margin-left: 430px;
   height: 150px;
-  width: 950px;
+  width: 900px;
   text-align: left;
   font-size: 30px;
+  background-color: rgb(255, 255, 255);
 }
-.edu1_1{
-  position: absolute;
-  margin-top: 310px;
-  margin-left: 430px;
-  height: 150px;
-  width: 950px;
-  text-align: left;
-  font-size: 23px;
-}
-.edu2{
+.h1_edu2{
   position: absolute;
   margin-top: 570px;
   margin-left: 430px;
   height: 150px;
-  width: 950px;
+  width: 900px;
   text-align: left;
   font-size: 30px;
+  background-color: rgb(255, 255, 255);
 }
-.edu2_1{
+.t1{
+  margin-top: 290px;
   position: absolute;
-  margin-top: 610px;
-  margin-left: 430px;
-  height: 150px;
-  width: 950px;
-  text-align: left;
-  font-size: 23px;
+ margin-left: 400px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right:30px solid  white;
+   
+    border-bottom: 20px solid transparent;
+   
+}
+.t2{
+  margin-top: 590px;
+  position: absolute;
+ margin-left: 400px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right:30px solid  white;
+   
+    border-bottom: 20px solid transparent;
 }

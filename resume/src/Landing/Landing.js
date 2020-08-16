@@ -65,50 +65,50 @@ class Landing extends Component {
                 window.open("https://www.linkedin.com/in/maryam-ghassemi-993085155/")
             })
             $(".yek").hover(function () {
-                $(this).css("background-color",  "white");
+                $(this).css("background-color", "white");
                 $(".circle_one").css("background-color", "red");
                 $(".circle_one").css("border", "4px solid red");
                 $(".circle_one").css("z-index", "999");
                 $(".triangle").css("border-right", "30px solid  white");
 
-                }, function(){
+            }, function () {
                 $(this).css("background-color", "#f0f2f7");
                 $(".circle_one").css("background-color", "gray");
                 $(".circle_one").css("border", "4px solid gray");
                 $(".triangle").css("border-right", "30px solid transparent");
-              });
-              $(".do").hover(function () {
-                $(this).css("background-color",  "white");
+            });
+            $(".do").hover(function () {
+                $(this).css("background-color", "white");
                 $(".circle_two").css("background-color", "red");
                 $(".circle_two").css("border", "4px solid red");
                 $(".circle_two").css("z-index", "999");
                 $(".triangle1").css("border-left", "30px solid  white");
 
-                }, function(){
+            }, function () {
                 $(this).css("background-color", "#f0f2f7");
                 $(".circle_two").css("background-color", "gray");
                 $(".circle_two").css("border", "4px solid gray");
                 $(".triangle1").css("border-left", "30px solid transparent");
-              });
-              $(".se").hover(function () {
-                $(this).css("background-color",  "white");
+            });
+            $(".se").hover(function () {
+                $(this).css("background-color", "white");
                 $(".circle_three").css("background-color", "red");
                 $(".circle_three").css("border", "4px solid red");
                 $(".circle_three").css("z-index", "999");
                 $(".triangle2").css("border-right", "30px solid  white");
 
-                }, function(){
+            }, function () {
                 $(this).css("background-color", "#f0f2f7");
                 $(".circle_three").css("background-color", "gray");
                 $(".circle_three").css("border", "4px solid gray");
                 $(".triangle2").css("border-right", "30px solid transparent");
-              });
-              $(window).scroll(function(){
+            });
+            $(window).scroll(function () {
                 var height = $(window).scrollTop();
                 var sp = document.getElementById("skill_page");
                 console.log(sp.offsetTop)
                 console.log(height)
-                if(height>=sp.offsetTop-500){
+                if (height >= sp.offsetTop - 500) {
                     setTimeout(function () {
                         $('#title1').fadeIn('slow')
                     }, 200);
@@ -140,10 +140,10 @@ class Landing extends Component {
                         $('#row_eight').fadeIn('slow')
                     }, 2000);
                 }
-              })
+            })
         })
     }
-    scroll_skill(){
+    scroll_skill() {
         console.log(1212121212)
     }
     render() {
@@ -166,9 +166,9 @@ class Landing extends Component {
                                 <div className='land_dark'>
 
                                     <Particles height='100vh'
-                                    
+
                                         params={{
-                                           
+
                                             "particles": {
                                                 "number": {
                                                     "value": 250
@@ -176,9 +176,9 @@ class Landing extends Component {
                                                 "size": {
                                                     "value": 5
                                                 },
-                                                 "color": {
-                                                "value": "#95389e"
-                                            },
+                                                "color": {
+                                                    "value": "#95389e"
+                                                },
                                             },
                                             "interactivity": {
                                                 "events": {
@@ -218,44 +218,53 @@ class Landing extends Component {
                             </div>
                             <div id='education_page' className='education'>
                                 <div className='one_edu'><h1>2015-2019</h1></div>
-                                <h1 className='edu1'>   B.Sc.in Computer Engineering (Software Engineering) </h1>
-<h1 className='edu1_1' >   Department of Electrical and Computer Engineering, Faculty of Engineering,  Shahid Beheshti University, Tehran, Iran
-Last two years gpa:  </h1>
+                                <div className='t1'></div>
+                                <div className='h1_edu1'>
+                                <h1 className='edu1'>B.Sc.in Computer Engineering (Software Engineering) </h1>
+                                <h1 className='edu1_1' >Department of Electrical and Computer Engineering, Faculty of Engineering,  Shahid Beheshti University, Tehran, Iran</h1>
+                                <h1 className='edu1_2' >Last two years gpa:  </h1>
+                                </div>
+                                
                                 <div className='two_edu'><h1>2011-2014</h1></div>
+                                <div className='t2'></div>
+                                <div className='h1_edu2'>
+                                
                                 <h1 className='edu2'>Diploma</h1>
-                                <h1 className='edu2_1'> Zohreh Tehrani High School
-Overall gpa : 19.33/20</h1>
+                                <h1 className='edu2_1'> Zohreh Tehrani High School</h1>
+                                <h1 className='edu2_2'>Overall gpa : 19.33/20</h1>
+                                </div>
+                            
                             </div>
                             <div id='work_page' className='work'>
-                            <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Work Exprience</h1>
-                            <div class="vl">
-                                <div >
-                                    <div className='circle_one'></div>
-                                    <div className='triangle'></div>
-                                    <div className='yek'>
-                                    <h1 style={{fontSize:'38px' , lineHeight:'50px' , fontWeight:'bold'}}>Internship Trainee</h1>
-                                        <h1 style={{fontSize:'20px'}}>Fanap . Jul2018 - Sep2018</h1>
-                                        
-                                    </div>
-                                </div>
-                                <div >
-                                <div className='circle_two'></div>
-                                <div className='triangle1'></div>
-                                    <div className='do'><h1 style={{fontSize:'38px' , lineHeight:'50px', fontWeight:'bold'}}>BackEnd Developer</h1>
-                                        <h1 style={{fontSize:'20px'}}>Awans . Oct2018 - Jan2020</h1>
-                                        </div>
-                                </div>
-                                <div >
-                                <div className='circle_three'></div>
-                                <div className='triangle2'></div>
-                                    <div className='se'>   <h1 style={{fontSize:'38px' , lineHeight:'50px',fontWeight:'bold'}}>BackEnd Developer</h1>
-                                        <h1 style={{fontSize:'20px'}}>Tapsell . Apr2020 - Now</h1>
-                                        </div>
-                                </div>
+                                <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Work Exprience</h1>
+                                <div class="vl">
+                                    <div >
+                                        <div className='circle_one'></div>
+                                        <div className='triangle'></div>
+                                        <div className='yek'>
+                                            <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>Internship Trainee</h1>
+                                            <h1 style={{ fontSize: '20px' }}>Fanap . Jul2018 - Sep2018</h1>
 
-                                
-                                
-                            </div>
+                                        </div>
+                                    </div>
+                                    <div >
+                                        <div className='circle_two'></div>
+                                        <div className='triangle1'></div>
+                                        <div className='do'><h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>BackEnd Developer</h1>
+                                            <h1 style={{ fontSize: '20px' }}>Awans . Oct2018 - Jan2020</h1>
+                                        </div>
+                                    </div>
+                                    <div >
+                                        <div className='circle_three'></div>
+                                        <div className='triangle2'></div>
+                                        <div className='se'>   <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>BackEnd Developer</h1>
+                                            <h1 style={{ fontSize: '20px' }}>Tapsell . Apr2020 - Now</h1>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
                             </div>
                             <div id='skill_page' className='skill' onScroll={this.scroll_skill} >
 
