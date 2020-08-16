@@ -284,8 +284,16 @@ margin-top: 250px;
 margin-left: 250px;
 height: 150px;
 width: 150px;
-background-color: #100303;
+background-color: rgb(67, 216, 201, 0.5);
 border-radius: 100px;
+text-align: center;
+}
+.one_edu h1{
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 30px;
 }
 .two_edu{
   position: absolute;
@@ -293,12 +301,49 @@ border-radius: 100px;
   margin-left: 250px;
   height: 150px;
   width: 150px;
-  background-color: #100303;
+  background-color: rgb(67, 216, 201, 0.5);
   border-radius: 100px;
 }
+.two_edu h1{
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 30px;
+}
 .edu1{
-
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 430px;
+  height: 150px;
+  width: 950px;
+  text-align: left;
+  font-size: 30px;
+}
+.edu1_1{
+  position: absolute;
+  margin-top: 310px;
+  margin-left: 430px;
+  height: 150px;
+  width: 950px;
+  text-align: left;
+  font-size: 23px;
 }
 .edu2{
-
+  position: absolute;
+  margin-top: 570px;
+  margin-left: 430px;
+  height: 150px;
+  width: 950px;
+  text-align: left;
+  font-size: 30px;
+}
+.edu2_1{
+  position: absolute;
+  margin-top: 610px;
+  margin-left: 430px;
+  height: 150px;
+  width: 950px;
+  text-align: left;
+  font-size: 23px;
 }

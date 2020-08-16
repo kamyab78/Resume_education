@@ -217,10 +217,14 @@ class Landing extends Component {
                                 jbhvjgc
                             </div>
                             <div id='education_page' className='education'>
-                                <div className='one_edu'></div>
-                                <h1 className='edu1'></h1>
-                                <div className='two_edu'></div>
-                                <h1 className='edu2'></h1>
+                                <div className='one_edu'><h1>2015-2019</h1></div>
+                                <h1 className='edu1'>   B.Sc.in Computer Engineering (Software Engineering) </h1>
+<h1 className='edu1_1' >   Department of Electrical and Computer Engineering, Faculty of Engineering,  Shahid Beheshti University, Tehran, Iran
+Last two years gpa:  </h1>
+                                <div className='two_edu'><h1>2011-2014</h1></div>
+                                <h1 className='edu2'>Diploma</h1>
+                                <h1 className='edu2_1'> Zohreh Tehrani High School
+Overall gpa : 19.33/20</h1>
                             </div>
                             <div id='work_page' className='work'>
                             <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Work Exprience</h1>
