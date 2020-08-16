@@ -148,7 +148,7 @@ class Landing extends Component {
     }
     render() {
         return (
-            <div class="row" style={{ backgroundColor: '#f7f7f7' }}>
+            <div class="row " style={{ backgroundColor: '#f7f7f7'}}>
                 <div class="col-lg-2  nav_class">
                     <div class="nav flex-column nav-pills nav_class" id="v-pills-tab" role="tablist" aria-orientation="vertical" style={{ textAlign: 'center' }}>
                         <a class="nav-link" id="about" data-toggle="pill" role="tab" aria-controls="v-pills-home" aria-selected="true">About</a>
@@ -158,10 +158,8 @@ class Landing extends Component {
                         <a class="nav-link" id="hobbi" data-toggle="pill" role="tab" aria-controls="v-pills-settings" aria-selected="false">Hobbies</a>
                     </div>
                 </div>
-                <div class="col-lg-10 ">
-                    <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" >
-
+                <div class="col-lg-10 main">
+                   
                             <div className='land'>
                                 <div className='land_dark'>
 
@@ -461,8 +459,8 @@ class Landing extends Component {
                             <p id='hobbi_page' className='hobbi'> Hobbi  Some text tSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
                            </p>
                         </div>
-                    </div>
-                </div>
+                    
+                
             </div>
 
         )

@@ -26,9 +26,13 @@
         position: fixed;
     }
   }
+  body{
+    overflow-x: hidden;
+  }
   .land{
     background-image: url('./back.jpg');
     height: 100vh;
+   
      background-repeat: no-repeat;
      background-size: cover;
   }
@@ -281,7 +285,7 @@ width: 400px;
 .one_edu{
 position: absolute;
 margin-top: 250px;
-margin-left: 250px;
+margin-left: 150px;
 height: 150px;
 width: 150px;
 background-color: rgb(67, 216, 201, 0.5);
@@ -298,7 +302,7 @@ text-align: center;
 .two_edu{
   position: absolute;
   margin-top: 550px;
-  margin-left: 250px;
+  margin-left: 150px;
   height: 150px;
   width: 150px;
   background-color: rgb(67, 216, 201, 0.5);
@@ -370,7 +374,7 @@ text-align: center;
 .h1_edu1{
   position: absolute;
   margin-top: 270px;
-  margin-left: 430px;
+  margin-left: 330px;
   height: 150px;
   width: 900px;
   text-align: left;
@@ -380,7 +384,7 @@ text-align: center;
 .h1_edu2{
   position: absolute;
   margin-top: 570px;
-  margin-left: 430px;
+  margin-left: 330px;
   height: 150px;
   width: 900px;
   text-align: left;
@@ -390,7 +394,7 @@ text-align: center;
 .t1{
   margin-top: 290px;
   position: absolute;
- margin-left: 400px;
+ margin-left: 300px;
     width: 0;
     height: 0;
     border-top: 20px solid transparent;
@@ -402,7 +406,7 @@ text-align: center;
 .t2{
   margin-top: 590px;
   position: absolute;
- margin-left: 400px;
+ margin-left: 300px;
     width: 0;
     height: 0;
     border-top: 20px solid transparent;
