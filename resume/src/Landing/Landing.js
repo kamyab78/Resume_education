@@ -161,7 +161,7 @@ class Landing extends Component {
     }
     render() {
         return (
-            <div class="row " style={{ backgroundColor: '#f7f7f7'}}>
+            <div class="row " style={{ backgroundColor: '#f7f7f7' }}>
                 <div class="col-lg-2  nav_class">
                     <div class="nav flex-column nav-pills nav_class" id="v-pills-tab" role="tablist" aria-orientation="vertical" style={{ textAlign: 'center' }}>
                         <a class="nav-link" id="about" data-toggle="pill" role="tab" aria-controls="v-pills-home" aria-selected="true">About</a>
@@ -172,325 +172,326 @@ class Landing extends Component {
                     </div>
                 </div>
                 <div class="col-lg-10 main">
-                   
-                            <div className='land'>
-                                <div className='land_dark'>
 
-                                    <Particles height='100vh'
+                    <div className='land'>
+                        <div className='land_dark'>
 
-                                        params={{
+                            <Particles height='100vh'
 
-                                            "particles": {
-                                                "number": {
-                                                    "value": 250
-                                                },
-                                                "size": {
-                                                    "value": 5
-                                                },
-                                                "color": {
-                                                    "value": "#95389e"
-                                                },
-                                            },
-                                            "interactivity": {
-                                                "events": {
-                                                    "onHover": {
-                                                        "enable": true,
-                                                        "mode": "repulse"
-                                                    }
-                                                }
+                                params={{
+
+                                    "particles": {
+                                        "number": {
+                                            "value": 250
+                                        },
+                                        "size": {
+                                            "value": 5
+                                        },
+                                        "color": {
+                                            "value": "#95389e"
+                                        },
+                                    },
+                                    "interactivity": {
+                                        "events": {
+                                            "onHover": {
+                                                "enable": true,
+                                                "mode": "repulse"
                                             }
-                                        }}
-                                    >
+                                        }
+                                    }
+                                }}
+                            >
 
-                                    </Particles>
-                                    <div className='center'>
-
-
-                                        <h1 className='name'> I'm Maryam Ghassemi</h1>
-                                        <div >
-
-                                            <img id='linkedin' src={Linkedin} className='icon'></img>
-                                            <img src={Email} className='icon'></img>
-                                            <img src={Skype} className='icon'></img>
-                                            <img src={Phone} className='icon'></img>
-                                        </div>
-
-                                    </div>
+                            </Particles>
+                            <div className='center'>
 
 
+                                <h1 className='name'> I'm Maryam Ghassemi</h1>
+                                <div >
 
+                                    <img id='linkedin' src={Linkedin} className='icon'></img>
+                                    <img src={Email} className='icon'></img>
+                                    <img src={Skype} className='icon'></img>
+                                    <img src={Phone} className='icon'></img>
+                                </div>
 
-
-
-
-                                </div></div>
-                            <div id='about_page' className='about'>
-                                jbhvjgc
                             </div>
-                            <div id='education_page' className='education'>
-                                <div className='one_edu'><h1>2015-2019</h1></div>
-                                <div className='t1'></div>
-                                <div className='h1_edu1'>
-                                <h1 className='edu1'>B.Sc.in Computer Engineering (Software Engineering) </h1>
-                                <h1 className='edu1_1' >Department of Electrical and Computer Engineering, Faculty of Engineering,  Shahid Beheshti University, Tehran, Iran</h1>
-                                <h1 className='edu1_2' >Last two years gpa:  </h1>
-                                </div>
-                                
-                                <div className='two_edu'><h1>2011-2014</h1></div>
-                                <div className='t2'></div>
-                                <div className='h1_edu2'>
-                                
-                                <h1 className='edu2'>Diploma</h1>
-                                <h1 className='edu2_1'> Zohreh Tehrani High School</h1>
-                                <h1 className='edu2_2'>Overall gpa : 19.33/20</h1>
-                                </div>
-                            
+
+
+
+
+
+
+
+                        </div></div>
+                    <div id='about_page' className='about'>
+                        jbhvjgc
                             </div>
-                            <div id='work_page' className='work'>
-                                <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Work Exprience</h1>
-                                <div class="vl">
-                                    <div >
-                                        <div className='circle_one'></div>
-                                        <div className='triangle'></div>
-                                        <div className='yek'>
-                                            <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>Internship Trainee</h1>
-                                            <h1 style={{ fontSize: '22px' }}>Fanap . Jul2018 - Sep2018</h1>
-                                            <h1 style={{ fontSize: '18px' }}> which is one of the Pioneer in Iran
-online financial system
-</h1>
-<h1 style={{ fontSize: '18px' }}> 
-Started learning Spring Boot framework of Java</h1>
-                                           
-                                        </div>
-                                    </div>
-                                    <div >
-                                        <div className='circle_two'></div>
-                                        <div className='triangle1'></div>
-                                        <div className='do'><h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>BackEnd Developer</h1>
-                                            <h1 style={{ fontSize: '22px' }}>Awans Startup . Oct2018 - Jan2020</h1>
-                                            <h1 style={{ fontSize: '18px' }}> Server Implementor</h1>
-                                            <h1 style={{ fontSize: '18px' }}> Developed a system for selling sort of short-term insurances</h1>
-                                        </div>
-                                    </div>
-                                    <div >
-                                        <div className='circle_three'></div>
-                                        <div className='triangle2'></div>
-                                        <div className='se'>   <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>Mobile Developer</h1>
-                                            <h1 style={{ fontSize: '22px' }}>Awans Startup .Oct 2019 - Jan 2020</h1>
-                                            <h1 style={{ fontSize: '18px' }}>Learned Mobile Developing from scratch Self-taught</h1>
-                                        </div>
-                                    </div>
-                                    <div >
-                                        <div className='circle_four'></div>
-                                        <div className='triangle3'></div>
-                                        <div className='char'>   <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>BackEnd Developer</h1>
-                                            <h1 style={{ fontSize: '22px' }}>Tapsell . Apr2020 - Now</h1>
-                                            <h1 style={{ fontSize: '18px' }}> which is the first Smart digital
-advertising network in Iran as Backend Developer</h1>
-                                        </div>
-                                    </div>
-
-
-
-                                </div>
-                            </div>
-                            <div id='skill_page' className='skill' onScroll={this.scroll_skill} >
-
-                                <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Skills</h1>
-                                <h1 style={{ fontSize: '25px', marginLeft: '160px', marginTop: '20px', display: 'none' }} id='title1'>Progamming Language</h1>
-                                <div style={{ display: 'none' }} className='row_one' id='row_one'>
-                                    <div className='java'>
-                                        <h1>Java</h1>
-                                        <div className='one' style={{ marginLeft: '80px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four'></div>
-                                        <div className='five'></div>
-                                    </div>
-                                    <div className='kotlin'>
-                                        <h1>Kotlin</h1>
-                                        <div className='one' style={{ marginLeft: '40px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four'></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                    <div className='cpp'>
-                                        <h1>C/C++</h1>
-                                        <div className='one' style={{ marginLeft: '70px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                </div>
-                                <div style={{ display: 'none' }} className='row_one' id='row_two'>
-                                    <div className='java'>
-                                        <h1>Python</h1>
-                                        <div className='one' style={{ marginLeft: '60px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                    <div className='kotlin'>
-                                        <h1>Mathlab</h1>
-                                        <div className='one' style={{ marginLeft: '20px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                    <div className='cpp'>
-                                        <h1>Assembly</h1>
-                                        <div className='one' style={{ marginLeft: '40px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                </div>
-                                <div style={{ display: 'none' }} className='row_one' id='row_three'>
-                                    <div className='java'>
-                                        <h1>Verilog</h1>
-                                        <div className='one' style={{ marginLeft: '63px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                    <div className='kotlin'>
-                                        <h1>Vhdl</h1>
-                                        <div className='one' style={{ marginLeft: '50px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-
-                                </div>
-
-                                <h1 style={{ fontSize: '25px', marginLeft: '160px', marginTop: '50px', display: 'none' }} id='title2' >Framework and Tecnical Program</h1>
-                                <div style={{ display: 'none' }} className='row_one' id='row_four'>
-                                    <div className='intelij'>
-                                        <h1 >IntelijIDE</h1>
-                                        <div className='one' style={{ marginLeft: '53px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four'></div>
-                                        <div className='five'></div>
-                                    </div>
-                                    <div className='spring'>
-                                        <h1>Spring</h1>
-                                        <div className='one' style={{ marginLeft: '40px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four'></div>
-                                        <div className='five'></div>
-                                    </div>
-                                    <div className='cpp'>
-                                        <h1>DataBase</h1>
-                                        <div className='one' style={{ marginLeft: '30px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four' ></div>
-                                        <div className='five' ></div>
-                                    </div>
-                                </div>
-                                <div style={{ display: 'none' }} className='row_one' id='row_five'>
-                                    <div className='intelij'>
-                                        <h1>WebStorm</h1>
-                                        <div className='one' style={{ marginLeft: '40px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four'></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                    <div className='spring'>
-                                        <h1>Hibernate</h1>
-                                        <div className='one' ></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four'></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                    <div className='cpp'>
-                                        <h1>Git</h1>
-                                        <div className='one' style={{ marginLeft: '95px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four' ></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                </div>
-                                <div style={{ display: 'none' }} className='row_one' id='row_six'>
-                                    <div className='intelij'>
-                                        <h1>ReactNative</h1>
-                                        <div className='one' style={{ marginLeft: '27px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four'></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                    <div className='spring'>
-                                        <h1>React</h1>
-                                        <div className='one' style={{ marginLeft: '43px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                    <div className='cpp'>
-                                        <h1>Android</h1>
-                                        <div className='one' style={{ marginLeft: '50px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                </div>
-                                <div style={{ display: 'none' }} className='row_one' id='row_seven'>
-                                    <div className='intelij'>
-                                        <h1>Socket</h1>
-                                        <div className='one' style={{ marginLeft: '74px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                    <div className='spring'>
-                                        <h1>Ubunto</h1>
-                                        <div className='one' style={{ marginLeft: '32px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three'></div>
-                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                    <div className='cpp'>
-                                        <h1>Arm</h1>
-                                        <div className='one' style={{ marginLeft: '80px' }}></div>
-                                        <div className='two'></div>
-                                        <div className='three' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                </div>
-                                <div style={{ display: 'none' }} className='row_one' id='row_eight'>
-                                    <div className='intelij'>
-                                        <h1>Prossecor Avr</h1>
-                                        <div className='one' ></div>
-                                        <div className='two'></div>
-                                        <div className='three' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                        <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <p id='hobbi_page' className='hobbi'> Hobbi  Some text tSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
-                           </p>
+                    <div id='education_page' className='education'>
+                        <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Education</h1>
+                        <div className='one_edu'><h1>2015-2019</h1></div>
+                        <div className='t1'></div>
+                        <div className='h1_edu1'>
+                            <h1 className='edu1'>B.Sc.in Computer Engineering (Software Engineering) </h1>
+                            <h1 className='edu1_1' >Department of Electrical and Computer Engineering, Faculty of Engineering,  Shahid Beheshti University, Tehran, Iran</h1>
+                            <h1 className='edu1_2' >Last two years gpa:  </h1>
                         </div>
-                    
-                
+
+                        <div className='two_edu'><h1>2011-2014</h1></div>
+                        <div className='t2'></div>
+                        <div className='h1_edu2'>
+
+                            <h1 className='edu2'>Diploma</h1>
+                            <h1 className='edu2_1'> Zohreh Tehrani High School</h1>
+                            <h1 className='edu2_2'>Overall gpa : 19.33/20</h1>
+                        </div>
+
+                    </div>
+                    <div id='work_page' className='work'>
+                        <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Work Exprience</h1>
+                        <div class="vl">
+                            <div >
+                                <div className='circle_one'></div>
+                                <div className='triangle'></div>
+                                <div className='yek'>
+                                    <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>Internship Trainee</h1>
+                                    <h1 style={{ fontSize: '22px' }}>Fanap . Jul2018 - Sep2018</h1>
+                                    <h1 style={{ fontSize: '18px' }}> which is one of the Pioneer in Iran
+                                    online financial system
+</h1>
+                                    <h1 style={{ fontSize: '18px' }}>
+                                        Started learning Spring Boot framework of Java</h1>
+
+                                </div>
+                            </div>
+                            <div >
+                                <div className='circle_two'></div>
+                                <div className='triangle1'></div>
+                                <div className='do'><h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>BackEnd Developer</h1>
+                                    <h1 style={{ fontSize: '22px' }}>Awans Startup . Oct2018 - Jan2020</h1>
+                                    <h1 style={{ fontSize: '18px' }}> Server Implementor</h1>
+                                    <h1 style={{ fontSize: '18px' }}> Developed a system for selling sort of short-term insurances</h1>
+                                </div>
+                            </div>
+                            <div >
+                                <div className='circle_three'></div>
+                                <div className='triangle2'></div>
+                                <div className='se'>   <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>Mobile Developer</h1>
+                                    <h1 style={{ fontSize: '22px' }}>Awans Startup .Oct 2019 - Jan 2020</h1>
+                                    <h1 style={{ fontSize: '18px' }}>Learned Mobile Developing from scratch Self-taught</h1>
+                                </div>
+                            </div>
+                            <div >
+                                <div className='circle_four'></div>
+                                <div className='triangle3'></div>
+                                <div className='char'>   <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>BackEnd Developer</h1>
+                                    <h1 style={{ fontSize: '22px' }}>Tapsell . Apr2020 - Now</h1>
+                                    <h1 style={{ fontSize: '18px' }}> which is the first Smart digital
+advertising network in Iran as Backend Developer</h1>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div id='skill_page' className='skill' onScroll={this.scroll_skill} >
+
+                        <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Skills</h1>
+                        <h1 style={{ fontSize: '25px', marginLeft: '160px', marginTop: '20px', display: 'none' }} id='title1'>Progamming Language</h1>
+                        <div style={{ display: 'none' }} className='row_one' id='row_one'>
+                            <div className='java'>
+                                <h1>Java</h1>
+                                <div className='one' style={{ marginLeft: '80px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four'></div>
+                                <div className='five'></div>
+                            </div>
+                            <div className='kotlin'>
+                                <h1>Kotlin</h1>
+                                <div className='one' style={{ marginLeft: '40px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four'></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                            <div className='cpp'>
+                                <h1>C/C++</h1>
+                                <div className='one' style={{ marginLeft: '70px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                        </div>
+                        <div style={{ display: 'none' }} className='row_one' id='row_two'>
+                            <div className='java'>
+                                <h1>Python</h1>
+                                <div className='one' style={{ marginLeft: '60px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                            <div className='kotlin'>
+                                <h1>Mathlab</h1>
+                                <div className='one' style={{ marginLeft: '20px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                            <div className='cpp'>
+                                <h1>Assembly</h1>
+                                <div className='one' style={{ marginLeft: '40px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                        </div>
+                        <div style={{ display: 'none' }} className='row_one' id='row_three'>
+                            <div className='java'>
+                                <h1>Verilog</h1>
+                                <div className='one' style={{ marginLeft: '63px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                            <div className='kotlin'>
+                                <h1>Vhdl</h1>
+                                <div className='one' style={{ marginLeft: '50px' }}></div>
+                                <div className='two'></div>
+                                <div className='three' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+
+                        </div>
+
+                        <h1 style={{ fontSize: '25px', marginLeft: '160px', marginTop: '50px', display: 'none' }} id='title2' >Framework and Tecnical Program</h1>
+                        <div style={{ display: 'none' }} className='row_one' id='row_four'>
+                            <div className='intelij'>
+                                <h1 >IntelijIDE</h1>
+                                <div className='one' style={{ marginLeft: '53px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four'></div>
+                                <div className='five'></div>
+                            </div>
+                            <div className='spring'>
+                                <h1>Spring</h1>
+                                <div className='one' style={{ marginLeft: '40px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four'></div>
+                                <div className='five'></div>
+                            </div>
+                            <div className='cpp'>
+                                <h1>DataBase</h1>
+                                <div className='one' style={{ marginLeft: '30px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four' ></div>
+                                <div className='five' ></div>
+                            </div>
+                        </div>
+                        <div style={{ display: 'none' }} className='row_one' id='row_five'>
+                            <div className='intelij'>
+                                <h1>WebStorm</h1>
+                                <div className='one' style={{ marginLeft: '40px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four'></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                            <div className='spring'>
+                                <h1>Hibernate</h1>
+                                <div className='one' ></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four'></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                            <div className='cpp'>
+                                <h1>Git</h1>
+                                <div className='one' style={{ marginLeft: '95px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four' ></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                        </div>
+                        <div style={{ display: 'none' }} className='row_one' id='row_six'>
+                            <div className='intelij'>
+                                <h1>ReactNative</h1>
+                                <div className='one' style={{ marginLeft: '27px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four'></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                            <div className='spring'>
+                                <h1>React</h1>
+                                <div className='one' style={{ marginLeft: '43px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                            <div className='cpp'>
+                                <h1>Android</h1>
+                                <div className='one' style={{ marginLeft: '50px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                        </div>
+                        <div style={{ display: 'none' }} className='row_one' id='row_seven'>
+                            <div className='intelij'>
+                                <h1>Socket</h1>
+                                <div className='one' style={{ marginLeft: '74px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                            <div className='spring'>
+                                <h1>Ubunto</h1>
+                                <div className='one' style={{ marginLeft: '32px' }}></div>
+                                <div className='two'></div>
+                                <div className='three'></div>
+                                <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                            <div className='cpp'>
+                                <h1>Arm</h1>
+                                <div className='one' style={{ marginLeft: '80px' }}></div>
+                                <div className='two'></div>
+                                <div className='three' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                        </div>
+                        <div style={{ display: 'none' }} className='row_one' id='row_eight'>
+                            <div className='intelij'>
+                                <h1>Prossecor Avr</h1>
+                                <div className='one' ></div>
+                                <div className='two'></div>
+                                <div className='three' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='four' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                                <div className='five' style={{ backgroundColor: 'rgb(149, 56, 158,0.2)' }}></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p id='hobbi_page' className='hobbi'> Hobbi  Some text tSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
+                           </p>
+                </div>
+
+
             </div>
 
         )
