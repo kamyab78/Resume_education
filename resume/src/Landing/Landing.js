@@ -8,6 +8,8 @@ import Email from './Other-Mail-Metro-icon.png'
 import Phone from './Phone-icon.png'
 import Skype from './Skype-icon.png'
 import Particles from 'react-particles-js';
+
+import { Navbar, Nav } from 'react-bootstrap';
 class Landing extends Component {
     componentDidMount() {
         $(document).ready(function () {
@@ -162,16 +164,28 @@ class Landing extends Component {
     render() {
         return (
             <div class="row " style={{ backgroundColor: '#f7f7f7' }}>
-                <div class="col-lg-2  nav_class">
-                    <div class="nav flex-column nav-pills nav_class" id="v-pills-tab" role="tablist" aria-orientation="vertical" style={{ textAlign: 'center' }}>
-                        <a class="nav-link" id="about" data-toggle="pill" role="tab" aria-controls="v-pills-home" aria-selected="true">About</a>
-                        <a class="nav-link" id="education" data-toggle="pill" role="tab" aria-controls="v-pills-profile" aria-selected="false">Education</a>
-                        <a class="nav-link" id="work" data-toggle="pill" role="tab" aria-controls="v-pills-messages" aria-selected="false">Work Exprience</a>
-                        <a class="nav-link" id="skill" data-toggle="pill" role="tab" aria-controls="v-pills-settings" aria-selected="false">Skills</a>
-                        <a class="nav-link" id="hobbi" data-toggle="pill" role="tab" aria-controls="v-pills-settings" aria-selected="false">Hobbies</a>
-                    </div>
-                </div>
-                <div class="col-lg-10 main">
+                <Navbar fixed="top"  expand="lg" style={{ backgroundColor: 'transparent' }}>
+
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: 'white', color: 'white' }} />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="mr-auto">
+                            <Nav.Link id="about" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px' , marginLeft:'20vh' }}>About</Nav.Link>
+                            <Nav.Link id="education" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft:'20vh' }}>
+                                Education
+                                </Nav.Link>
+                            <Nav.Link id="work" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px',  marginLeft:'20vh' }}>Work Exprience</Nav.Link>
+                            <Nav.Link id="skill" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px',  marginLeft:'20vh' }}>
+                                Skills
+                                </Nav.Link>
+                            <Nav.Link id="hobbi" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px',marginLeft:'20vh' }}>
+                                Hobbies
+                                </Nav.Link>
+                        </Nav>
+
+                    </Navbar.Collapse>
+                </Navbar>
+
+                <div class="col-lg-12 main">
 
                     <div className='land'>
                         <div className='land_dark'>

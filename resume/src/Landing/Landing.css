@@ -76,7 +76,9 @@ cursor: pointer;
 }
 .about{
   height: 100vh;
-  background-color: blue;
+  background-image: url('./about_back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .education{
   height: 100vh;
@@ -410,6 +412,7 @@ text-align: center;
   text-align: left;
   font-size: 30px;
   background-color: rgb(255, 255, 255);
+  
 }
 .h1_edu2{
   position: absolute;
