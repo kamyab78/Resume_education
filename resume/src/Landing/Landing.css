@@ -7,6 +7,7 @@
 }
 .nav_class a:hover{
   color: purple;
+
 }
 .nav_class{
     position: fixed;
@@ -76,9 +77,15 @@ cursor: pointer;
 }
 .about{
   height: 100vh;
-  background-image: url('./about_back.jpg');
+background-color: white;
+
+}
+.about_page{
+    background-image: url('./about_back.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  height: 100vh;
+  margin-left: 15%;
 }
 .education{
   height: 100vh;
@@ -316,7 +323,7 @@ width: 400px;
     }
 .one_edu{
 position: absolute;
-margin-top:150px;
+margin-top:50px;
 margin-left: 120px;
 height: 150px;
 width: 150px;
@@ -333,7 +340,7 @@ text-align: center;
 }
 .two_edu{
   position: absolute;
-  margin-top:450px;
+  margin-top:350px;
   margin-left: 120px;
   height: 150px;
   width: 150px;
@@ -405,7 +412,7 @@ text-align: center;
 }
 .h1_edu1{
   position: absolute;
-  margin-top: 190px;
+  margin-top: 80px;
   margin-left: 320px;
   height: 150px;
   width: 900px;
@@ -416,7 +423,7 @@ text-align: center;
 }
 .h1_edu2{
   position: absolute;
-  margin-top: 480px;
+  margin-top: 380px;
   margin-left: 320px;
   height: 150px;
   width: 900px;
@@ -425,7 +432,7 @@ text-align: center;
   background-color: rgb(255, 255, 255);
 }
 .t1{
-  margin-top: 200px;
+  margin-top: 90px;
   position: absolute;
  margin-left: 280px;
     width: 0;
@@ -437,7 +444,7 @@ text-align: center;
    
 }
 .t2{
-  margin-top: 490px;
+  margin-top: 390px;
   position: absolute;
  margin-left: 280px;
     width: 0;

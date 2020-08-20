@@ -13,12 +13,10 @@ import { Navbar, Nav } from 'react-bootstrap';
 class Landing extends Component {
     componentDidMount() {
         $(document).ready(function () {
-            $.getJSON("https://api.ipify.org?format=json", 
-            function(data) { 
-
-// Setting text of element P with id gfg 
-console.log(data.ip); 
-}) 
+            $.getJSON("https://api.ipify.org?format=json",
+                function (data) {
+                    console.log(data.ip);
+                })
             $("#about").click(function () {
                 var elmnt = document.getElementById("about_page");
                 elmnt.scrollIntoView({ behavior: 'smooth' });
@@ -170,20 +168,20 @@ console.log(data.ip);
     render() {
         return (
             <div class="row " style={{ backgroundColor: '#f7f7f7' }}>
-                <Navbar fixed="top"  expand="lg" style={{ backgroundColor: 'transparent' }}>
+                <Navbar fixed="top" expand="lg" style={{ backgroundColor: 'rgb(128, 128, 128 , 0.5)' }}>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: 'white', color: 'white' }} />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link id="about" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px' , marginLeft:'20vh' }}>About</Nav.Link>
-                            <Nav.Link id="education" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft:'20vh' }}>
+                            <Nav.Link id="about" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '20vh' }}>About</Nav.Link>
+                            <Nav.Link id="education" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '20vh' }}>
                                 Education
                                 </Nav.Link>
-                            <Nav.Link id="work" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px',  marginLeft:'20vh' }}>Work Exprience</Nav.Link>
-                            <Nav.Link id="skill" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px',  marginLeft:'20vh' }}>
+                            <Nav.Link id="work" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '20vh' }}>Work Exprience</Nav.Link>
+                            <Nav.Link id="skill" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '20vh' }}>
                                 Skills
                                 </Nav.Link>
-                            <Nav.Link id="hobbi" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px',marginLeft:'20vh' }}>
+                            <Nav.Link id="hobbi" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '20vh' }}>
                                 Hobbies
                                 </Nav.Link>
                         </Nav>
@@ -245,7 +243,7 @@ console.log(data.ip);
 
                         </div></div>
                     <div id='about_page' className='about'>
-                        jbhvjgc
+                <div className='col-12 about_page'></div>
                             </div>
                     <div id='education_page' className='education'>
                         <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Education</h1>
