@@ -13,6 +13,12 @@ import { Navbar, Nav } from 'react-bootstrap';
 class Landing extends Component {
     componentDidMount() {
         $(document).ready(function () {
+            $.getJSON("https://api.ipify.org?format=json", 
+            function(data) { 
+
+// Setting text of element P with id gfg 
+console.log(data.ip); 
+}) 
             $("#about").click(function () {
                 var elmnt = document.getElementById("about_page");
                 elmnt.scrollIntoView({ behavior: 'smooth' });
