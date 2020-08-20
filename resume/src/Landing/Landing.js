@@ -66,8 +66,8 @@ class Landing extends Component {
             })
             $(".yek").hover(function () {
                 $(this).css("background-color", "white");
-                $(".circle_one").css("background-color", "red");
-                $(".circle_one").css("border", "4px solid red");
+                $(".circle_one").css("background-color", '#f3c623');
+                $(".circle_one").css("border", "4px solid #f3c623");
                 $(".circle_one").css("z-index", "999");
                 $(".triangle").css("border-right", "30px solid  white");
 
@@ -79,8 +79,8 @@ class Landing extends Component {
             });
             $(".do").hover(function () {
                 $(this).css("background-color", "white");
-                $(".circle_two").css("background-color", "red");
-                $(".circle_two").css("border", "4px solid red");
+                $(".circle_two").css("background-color", "#f3c623");
+                $(".circle_two").css("border", "4px solid #f3c623");
                 $(".circle_two").css("z-index", "999");
                 $(".triangle1").css("border-left", "30px solid  white");
 
@@ -92,8 +92,8 @@ class Landing extends Component {
             });
             $(".se").hover(function () {
                 $(this).css("background-color", "white");
-                $(".circle_three").css("background-color", "red");
-                $(".circle_three").css("border", "4px solid red");
+                $(".circle_three").css("background-color", "#f3c623");
+                $(".circle_three").css("border", "4px solid #f3c623");
                 $(".circle_three").css("z-index", "999");
                 $(".triangle2").css("border-right", "30px solid  white");
 
@@ -102,6 +102,19 @@ class Landing extends Component {
                 $(".circle_three").css("background-color", "gray");
                 $(".circle_three").css("border", "4px solid gray");
                 $(".triangle2").css("border-right", "30px solid transparent");
+            });
+            $(".char").hover(function () {
+                $(this).css("background-color", "white");
+                $(".circle_four").css("background-color", "#f3c623");
+                $(".circle_four").css("border", "4px solid #f3c623");
+                $(".circle_four").css("z-index", "999");
+                $(".triangle3").css("border-left", "30px solid  white");
+
+            }, function () {
+                $(this).css("background-color", "#f0f2f7");
+                $(".circle_four").css("background-color", "gray");
+                $(".circle_four").css("border", "4px solid gray");
+                $(".triangle3").css("border-left", "30px solid transparent");
             });
             $(window).scroll(function () {
                 var height = $(window).scrollTop();
@@ -241,22 +254,39 @@ class Landing extends Component {
                                         <div className='triangle'></div>
                                         <div className='yek'>
                                             <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>Internship Trainee</h1>
-                                            <h1 style={{ fontSize: '20px' }}>Fanap . Jul2018 - Sep2018</h1>
-
+                                            <h1 style={{ fontSize: '22px' }}>Fanap . Jul2018 - Sep2018</h1>
+                                            <h1 style={{ fontSize: '18px' }}> which is one of the Pioneer in Iran
+online financial system
+</h1>
+<h1 style={{ fontSize: '18px' }}> 
+Started learning Spring Boot framework of Java</h1>
+                                           
                                         </div>
                                     </div>
                                     <div >
                                         <div className='circle_two'></div>
                                         <div className='triangle1'></div>
                                         <div className='do'><h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>BackEnd Developer</h1>
-                                            <h1 style={{ fontSize: '20px' }}>Awans . Oct2018 - Jan2020</h1>
+                                            <h1 style={{ fontSize: '22px' }}>Awans Startup . Oct2018 - Jan2020</h1>
+                                            <h1 style={{ fontSize: '18px' }}> Server Implementor</h1>
+                                            <h1 style={{ fontSize: '18px' }}> Developed a system for selling sort of short-term insurances</h1>
                                         </div>
                                     </div>
                                     <div >
                                         <div className='circle_three'></div>
                                         <div className='triangle2'></div>
-                                        <div className='se'>   <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>BackEnd Developer</h1>
-                                            <h1 style={{ fontSize: '20px' }}>Tapsell . Apr2020 - Now</h1>
+                                        <div className='se'>   <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>Mobile Developer</h1>
+                                            <h1 style={{ fontSize: '22px' }}>Awans Startup .Oct 2019 - Jan 2020</h1>
+                                            <h1 style={{ fontSize: '18px' }}>Learned Mobile Developing from scratch Self-taught</h1>
+                                        </div>
+                                    </div>
+                                    <div >
+                                        <div className='circle_four'></div>
+                                        <div className='triangle3'></div>
+                                        <div className='char'>   <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>BackEnd Developer</h1>
+                                            <h1 style={{ fontSize: '22px' }}>Tapsell . Apr2020 - Now</h1>
+                                            <h1 style={{ fontSize: '18px' }}> which is the first Smart digital
+advertising network in Iran as Backend Developer</h1>
                                         </div>
                                     </div>
 

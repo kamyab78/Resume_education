@@ -225,6 +225,17 @@ background-color: #f0f2f7;
   padding-right: 10px;
   position: absolute;
   margin-left: -13px;
+  margin-top: 30vh;
+  background-color: gray;
+}
+.circle_four{
+  height: 20px;
+  width: 20px;
+  border: 4px solid grey;
+  border-radius: 100px;
+  padding-right: 10px;
+  position: absolute;
+  margin-left: -13px;
   margin-top: 40vh;
   background-color: gray;
 }
@@ -232,7 +243,7 @@ background-color: #f0f2f7;
 text-align: left;
   margin-left: 50px;
   position: absolute;
-height: 100px;
+height: 180px;
 width: 400px;
 
 }
@@ -250,7 +261,7 @@ position: absolute;
 margin-top: 10vh;
 text-align: left;
 margin-left: -420px;
-height: 100px;
+height: 180px;
 width: 370px;
 }
 .triangle1{
@@ -266,14 +277,22 @@ width: 370px;
   }
 .se{
   position: absolute;
-  margin-top: 39vh;
+  margin-top: 29vh;
   text-align: left;
   margin-left: 50px;
-  height: 100px;
+  height: 150px;
 width: 400px;
 }
-.triangle2{
+.char{
+  position: absolute;
   margin-top: 39vh;
+  text-align: left;
+  margin-left: -420px;
+  height: 140px;
+  width: 370px;
+  }
+.triangle2{
+  margin-top: 29vh;
   position: absolute;
   margin-left: 20px;
     width: 0;
@@ -282,6 +301,17 @@ width: 400px;
     border-right: 30px solid transparent;
     border-bottom: 20px solid transparent;
   }
+  .triangle3{
+ 
+    margin-top: 39vh;
+    position: absolute;
+    margin-left: -50px;
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-left: 30px solid transparent;
+      border-bottom: 20px solid transparent;
+    }
 .one_edu{
 position: absolute;
 margin-top: 250px;
