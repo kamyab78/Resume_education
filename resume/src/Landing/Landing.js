@@ -8,6 +8,7 @@ import Email from './Other-Mail-Metro-icon.png'
 import Phone from './Phone-icon.png'
 import Skype from './Skype-icon.png'
 import Particles from 'react-particles-js';
+import Back from'./header.png'
 
 import { Navbar, Nav } from 'react-bootstrap';
 class Landing extends Component {
@@ -63,10 +64,7 @@ class Landing extends Component {
                     $('#row_eight').fadeIn('slow')
                 }, 2000);
             })
-            $("#hobbi").click(function () {
-                var elmnt = document.getElementById("hobbi_page");
-                elmnt.scrollIntoView({ behavior: 'smooth' });
-            })
+
             $("#linkedin").click(function () {
                 window.open("https://www.linkedin.com/in/maryam-ghassemi-993085155/")
             })
@@ -173,17 +171,15 @@ class Landing extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: 'white', color: 'white' }} />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link id="about" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '20vh' }}>About</Nav.Link>
-                            <Nav.Link id="education" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '20vh' }}>
+                            <Nav.Link id="about" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '25vh' }}>About</Nav.Link>
+                            <Nav.Link id="education" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '25vh' }}>
                                 Education
                                 </Nav.Link>
-                            <Nav.Link id="work" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '20vh' }}>Work Exprience</Nav.Link>
-                            <Nav.Link id="skill" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '20vh' }}>
+                            <Nav.Link id="work" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '25vh' }}>Work Exprience</Nav.Link>
+                            <Nav.Link id="skill" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '25vh' }}>
                                 Skills
                                 </Nav.Link>
-                            <Nav.Link id="hobbi" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '20vh' }}>
-                                Hobbies
-                                </Nav.Link>
+                           
                         </Nav>
 
                     </Navbar.Collapse>
@@ -192,6 +188,7 @@ class Landing extends Component {
                 <div class="col-lg-12 main">
 
                     <div className='land'>
+                        
                         <div className='land_dark'>
 
                             <Particles height='100vh'
@@ -505,8 +502,7 @@ advertising network in Iran as Backend Developer</h1>
                             </div>
                         </div>
                     </div>
-                    <p id='hobbi_page' className='hobbi'> Hobbi  Some text tSome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus g
-                           </p>
+                   
                 </div>
 
 

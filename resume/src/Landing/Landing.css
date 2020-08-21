@@ -36,6 +36,7 @@
   
      background-repeat: no-repeat;
      background-size: contain;
+    background-position: bottom;
   }
   .land_dark{
     
@@ -54,9 +55,9 @@
 
 }
 .center{
- margin-top: -35%;
+ margin-top: -30%;
 line-height: 40px;
-padding-left: 65vh;
+padding-left: 70vh;
   text-align: left;
   position: absolute;
   z-index: 999;
@@ -158,7 +159,7 @@ background-color: #f0f2f7;
 }
 .java h1{
   font-size: 20px;
-  margin-left: 220px;
+  margin-left: 260px;
 }
 .row_one{
   display: flex;
@@ -171,7 +172,7 @@ background-color: #f0f2f7;
 }
 .kotlin h1{
   font-size: 20px;
-  margin-left: 80px;
+  margin-left: 130px;
 }
 .cpp{
   display: flex;
@@ -180,7 +181,7 @@ background-color: #f0f2f7;
 }
 .cpp h1{
   font-size: 20px;
-  margin-left: 70px;
+  margin-left: 120px;
 }
 .intelij{
   
@@ -190,7 +191,7 @@ background-color: #f0f2f7;
 }
 .intelij h1{
     font-size: 20px;
-    margin-left: 220px;
+    margin-left: 270px;
   
 }
 .spring{
@@ -200,7 +201,7 @@ background-color: #f0f2f7;
 }
 .spring h1{
   font-size: 20px;
-  margin-left: 70px;
+  margin-left: 120px;
 }
 .circle_one{
   height: 20px;
@@ -340,7 +341,7 @@ text-align: center;
 }
 .two_edu{
   position: absolute;
-  margin-top:350px;
+  margin-top:300px;
   margin-left: 120px;
   height: 150px;
   width: 150px;
@@ -423,7 +424,7 @@ text-align: center;
 }
 .h1_edu2{
   position: absolute;
-  margin-top: 380px;
+  margin-top: 330px;
   margin-left: 320px;
   height: 150px;
   width: 900px;
@@ -444,7 +445,7 @@ text-align: center;
    
 }
 .t2{
-  margin-top: 390px;
+  margin-top: 340px;
   position: absolute;
  margin-left: 280px;
     width: 0;
