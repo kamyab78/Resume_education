@@ -123,8 +123,7 @@ class Landing extends Component {
             $(window).scroll(function () {
                 var height = $(window).scrollTop();
                 var sp = document.getElementById("skill_page");
-                console.log(sp.offsetTop)
-                console.log(height)
+               
                 if (height >= sp.offsetTop - 500) {
                     setTimeout(function () {
                         $('#title1').fadeIn('slow')
@@ -165,7 +164,7 @@ class Landing extends Component {
     }
     render() {
         return (
-            <div class="row " style={{ backgroundColor: '#f7f7f7' }}>
+            <div class="row " style={{ backgroundColor: '#f7f7f7' , width:'200vh' }}>
                 <Navbar fixed="top" expand="lg" style={{ backgroundColor: 'rgb(128, 128, 128 , 0.5)' }}>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: 'white', color: 'white' }} />

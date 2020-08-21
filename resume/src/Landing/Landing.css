@@ -29,6 +29,7 @@
   }
   body{
     overflow-x: hidden;
+    
   }
   .land{
     background-image: url('./header.png');
@@ -41,7 +42,7 @@
   .land_dark{
     
     background-color: rgba(365,365,365,0.2);
-    width: 100%;
+   
     height: 100%;
     margin:0;
     padding:0;
@@ -91,6 +92,7 @@ background-color: white;
 .education{
   height: 100vh;
 background-color: rgb(128, 128, 128,0.1);
+
 }
 .hobbi{
   height: 100vh;
@@ -98,7 +100,7 @@ background-color: rgb(128, 128, 128,0.1);
 }
 .skill{
   height: 120vh;
- 
+  
 }
 .skill_cart{
   background-color: #100303;
@@ -108,6 +110,7 @@ background-color: rgb(128, 128, 128,0.1);
 .work{
   height: 100vh;
 background-color: #f0f2f7;
+
 }
 .vl {
   border-left: 4px solid grey;
