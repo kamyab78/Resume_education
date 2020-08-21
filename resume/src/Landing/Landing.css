@@ -31,7 +31,7 @@
     overflow-x: hidden;
   }
   .land{
-    background-image: url('./back.jpg');
+    background-image: url('./header.png');
     height: 100vh;
    
      background-repeat: no-repeat;
@@ -39,7 +39,7 @@
   }
   .land_dark{
     
-    background-color: rgba(365,365,365,0.7);
+    background-color: rgba(365,365,365,0.2);
     width: 100%;
     height: 100%;
     margin:0;
