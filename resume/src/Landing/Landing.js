@@ -9,15 +9,35 @@ import Phone from './Phone-icon.png'
 import Skype from './Skype-icon.png'
 import Particles from 'react-particles-js';
 import Back from'./header.png'
-
 import { Navbar, Nav } from 'react-bootstrap';
+var ip=''
 class Landing extends Component {
     componentDidMount() {
         $(document).ready(function () {
             $.getJSON("https://api.ipify.org?format=json",
                 function (data) {
                     console.log(data.ip);
+                    ip=data.ip
                 })
+                setTimeout(function() { 
+                    var settings = {
+                        "url": "http://127.0.0.1:8000/create/",
+                        "method": "POST",
+                        "timeout": 0,
+                        "headers": {
+                            "accept": "application/json",
+                            "Access-Control-Allow-Origin": "*",
+                            "Access-Control-Allow-Headers": "*",
+                            "Content-Type": "application/json"
+                        },
+                        "data": JSON.stringify({
+                          "ip_address":ip
+                        }),
+                    };
+                    $.ajax(settings).done(function (response) {
+    console.log(response)
+                    });
+                }, 2000);
             $("#about").click(function () {
                 var elmnt = document.getElementById("about_page");
                 elmnt.scrollIntoView({ behavior: 'smooth' });
