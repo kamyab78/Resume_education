@@ -140,6 +140,19 @@ class Landing extends Component {
                 $(".circle_four").css("border", "4px solid gray");
                 $(".triangle3").css("border-left", "30px solid transparent");
             });
+            $(".yek_yek").hover(function () {
+                $(this).css("background-color", "white");
+                $(".circle_yek").css("background-color", "#f3c623");
+                $(".circle_yek").css("border", "4px solid #f3c623");
+                $(".circle_yek").css("z-index", "999");
+                $(".mosalas").css("border-right", "30px solid  white");
+
+            }, function () {
+                $(this).css("background-color", "transparent");
+                $(".circle_yek").css("background-color", "gray");
+                $(".circle_yek").css("border", "4px solid gray");
+                $(".mosalas").css("border-right", "30px solid transparent");
+            });
             $(window).scroll(function () {
                 var height = $(window).scrollTop();
                 var sp = document.getElementById("skill_page");
@@ -263,6 +276,18 @@ class Landing extends Component {
                     </div>
                     <div id='education_page' className='education'>
                         <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Education</h1>
+                        <div className='line'>
+                        <div >
+                                <div className='circle_yek'></div>
+                                <div className='mosalas'></div>
+                                <div className='yek_yek'>
+                                    <h1 style={{ fontSize: '30px', lineHeight: '50px', fontWeight: 'bold' }}>Number Classifier Neural Network</h1>
+                                    <h1 style={{ fontSize: '22px' }}>using python . Fall 2019</h1>
+                                    <h1 style={{ fontSize: '18px' }}>Collected Persian handwritten similar to MNIST and Developed</h1>
+                                </div>
+                            </div>
+                        </div>
+
                         <div className='one_edu'><h1>2015-2019</h1></div>
                         <div className='t1'></div>
                         <div className='h1_edu1'>
