@@ -366,27 +366,27 @@ text-align: center;
   margin-left: 15px;
   margin-top: 15px;
   height: 150px;
-  width: 950px;
+  width: 450px;
   text-align: left;
-  font-size: 22px;
+  font-size: 21px;
 }
 .edu1_1{
   position: absolute;
-  margin-top: 45px;
+  margin-top: 75px;
   margin-left: 15px;
   height: 150px;
-  width: 910px;
+  width: 430px;
   text-align: left;
-  font-size: 19px;
+  font-size: 18px;
 }
 .edu1_2{
   position: absolute;
-  margin-top: 103px;
+  margin-top: 153px;
   margin-left: 15px;
   height: 150px;
-  width: 910px;
+  width: 410px;
   text-align: left;
-  font-size: 19px;
+  font-size: 18px;
 }
 .edu2{
   position: absolute;
@@ -395,7 +395,7 @@ text-align: center;
   height: 150px;
   width: 950px;
   text-align: left;
-  font-size: 22px;
+  font-size: 21px;
 }
 .edu2_1{
   position: absolute;
@@ -404,7 +404,7 @@ text-align: center;
   height: 150px;
   width: 950px;
   text-align: left;
-  font-size: 19px;
+  font-size: 18px;
 }
 .edu2_2{
   position: absolute;
@@ -413,14 +413,14 @@ text-align: center;
   height: 150px;
   width: 950px;
   text-align: left;
-  font-size: 19px;
+  font-size: 18px;
 }
 .h1_edu1{
   position: absolute;
   margin-top: 80px;
   margin-left: 320px;
-  height: 150px;
-  width: 900px;
+  height: 200px;
+  width: 450px;
   text-align: left;
   font-size: 30px;
   background-color: rgb(255, 255, 255);
@@ -431,7 +431,7 @@ text-align: center;
   margin-top: 330px;
   margin-left: 320px;
   height: 150px;
-  width: 900px;
+  width: 450px;
   text-align: left;
   font-size: 30px;
   background-color: rgb(255, 255, 255);
