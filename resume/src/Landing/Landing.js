@@ -8,36 +8,36 @@ import Email from './Other-Mail-Metro-icon.png'
 import Phone from './Phone-icon.png'
 import Skype from './Skype-icon.png'
 import Particles from 'react-particles-js';
-import Back from'./header.png'
+import Back from './header.png'
 import { Navbar, Nav } from 'react-bootstrap';
-var ip=''
+var ip = ''
 class Landing extends Component {
     componentDidMount() {
         $(document).ready(function () {
             $.getJSON("https://api.ipify.org?format=json",
                 function (data) {
                     console.log(data.ip);
-                    ip=data.ip
+                    ip = data.ip
                 })
-                setTimeout(function() { 
-                    var settings = {
-                        "url": "http://127.0.0.1:8000/create/",
-                        "method": "POST",
-                        "timeout": 0,
-                        "headers": {
-                            "accept": "application/json",
-                            "Access-Control-Allow-Origin": "*",
-                            "Access-Control-Allow-Headers": "*",
-                            "Content-Type": "application/json"
-                        },
-                        "data": JSON.stringify({
-                          "ip_address":ip
-                        }),
-                    };
-                    $.ajax(settings).done(function (response) {
-    console.log(response)
-                    });
-                }, 2000);
+            setTimeout(function () {
+                var settings = {
+                    "url": "http://127.0.0.1:8000/create/",
+                    "method": "POST",
+                    "timeout": 0,
+                    "headers": {
+                        "accept": "application/json",
+                        "Access-Control-Allow-Origin": "*",
+                        "Access-Control-Allow-Headers": "*",
+                        "Content-Type": "application/json"
+                    },
+                    "data": JSON.stringify({
+                        "ip_address": ip
+                    }),
+                };
+                $.ajax(settings).done(function (response) {
+                    console.log(response)
+                });
+            }, 2000);
             $("#about").click(function () {
                 var elmnt = document.getElementById("about_page");
                 elmnt.scrollIntoView({ behavior: 'smooth' });
@@ -143,7 +143,7 @@ class Landing extends Component {
             $(window).scroll(function () {
                 var height = $(window).scrollTop();
                 var sp = document.getElementById("skill_page");
-               
+
                 if (height >= sp.offsetTop - 500) {
                     setTimeout(function () {
                         $('#title1').fadeIn('slow')
@@ -184,7 +184,7 @@ class Landing extends Component {
     }
     render() {
         return (
-            <div class="row " style={{ backgroundColor: '#f7f7f7' , width:'200vh' }}>
+            <div class="row " style={{ backgroundColor: '#f7f7f7', width: '200vh' }}>
                 <Navbar fixed="top" expand="lg" style={{ backgroundColor: 'rgb(128, 128, 128 , 0.5)' }}>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: 'white', color: 'white' }} />
@@ -198,7 +198,7 @@ class Landing extends Component {
                             <Nav.Link id="skill" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '25vh' }}>
                                 Skills
                                 </Nav.Link>
-                           
+
                         </Nav>
 
                     </Navbar.Collapse>
@@ -207,7 +207,7 @@ class Landing extends Component {
                 <div class="col-lg-12 main">
 
                     <div className='land'>
-                        
+
                         <div className='land_dark'>
 
                             <Particles height='100vh'
@@ -259,8 +259,8 @@ class Landing extends Component {
 
                         </div></div>
                     <div id='about_page' className='about'>
-                <div className='col-12 about_page'></div>
-                            </div>
+                        <div className='col-12 about_page'></div>
+                    </div>
                     <div id='education_page' className='education'>
                         <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Education</h1>
                         <div className='one_edu'><h1>2015-2019</h1></div>
@@ -521,7 +521,7 @@ advertising network in Iran as Backend Developer</h1>
                             </div>
                         </div>
                     </div>
-                   
+
                 </div>
 
 
