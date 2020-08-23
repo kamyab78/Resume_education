@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './Landing.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
-import jQuery from 'jquery'
 import Linkedin from './linkedin-icon.png'
 import Email from './Other-Mail-Metro-icon.png'
 import Phone from './Phone-icon.png'
@@ -180,9 +179,6 @@ class Landing extends Component {
             })
         })
     }
-    scroll_skill() {
-        console.log(1212121212)
-    }
     render() {
         return (
             <div class="row " style={{ backgroundColor: '#f7f7f7', width: '200vh' }}>
@@ -204,9 +200,7 @@ class Landing extends Component {
 
                     </Navbar.Collapse>
                 </Navbar>
-
                 <div class="col-lg-12 main">
-
                     <div className='land'>
 
                         <div className='land_dark'>
@@ -258,7 +252,8 @@ class Landing extends Component {
 
 
 
-                        </div></div>
+                        </div>
+                        </div>
                     <div id='about_page' className='about'>
                         <div className='col-12 about_page'></div>
                     </div>
@@ -384,7 +379,7 @@ class Landing extends Component {
 
                         </div>
                     </div>
-                    <div id='skill_page' className='skill' onScroll={this.scroll_skill} >
+                    <div id='skill_page' className='skill'  >
 
                         <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Skills</h1>
                         <h1 style={{ fontSize: '25px', marginLeft: '160px', marginTop: '20px', display: 'none' }} id='title1'>Progamming Language</h1>
@@ -576,15 +571,10 @@ class Landing extends Component {
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-
             </div>
 
         )
     }
-
-
 }
 export default Landing

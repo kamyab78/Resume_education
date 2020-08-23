@@ -27,10 +27,7 @@
         position: fixed;
     }
   }
-  body{
-    overflow-x: hidden;
-    
-  }
+
   .land{
     background-image: url('./header.png');
     height: 100vh;
@@ -331,7 +328,7 @@ width: 400px;
   height: 45vh;
   position: absolute;
   margin-top: 30px;
-  margin-left: 63%;
+  margin-left: 70%;
 }
 .circle_yek{
   height: 20px;
@@ -643,7 +640,7 @@ text-align: center;
   border-bottom-color: black;
 border-bottom-style: solid;
 font-size: 40px;
-margin-left: 53%;
+margin-left: 60%;
 padding-top: 50px;
 width: 400px;
 text-align: center;
