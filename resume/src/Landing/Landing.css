@@ -27,7 +27,9 @@
         position: fixed;
     }
   }
-
+body{
+  overflow-x: hidden;
+}
   .land{
     background-image: url('./header.png');
     height: 100vh;
@@ -323,13 +325,7 @@ width: 400px;
       border-left: 30px solid transparent;
       border-bottom: 20px solid transparent;
     }
-.line{
-  border-left: 4px solid grey;
-  height: 45vh;
-  position: absolute;
-  margin-top: 30px;
-  margin-left: 70%;
-}
+
 .circle_yek{
   height: 20px;
   width: 20px;
@@ -347,7 +343,7 @@ width: 400px;
   margin-left: 50px;
   position: absolute;
 height: 130px;
-width: 300px;
+width: 250px;
 background-color: white;
 padding-left: 10px;
 }
@@ -364,9 +360,9 @@ padding-left: 10px;
   position: absolute;
   margin-top: 10vh;
   text-align: left;
-  margin-left: -320px;
+  margin-left: -300px;
   height: 140px;
-  width: 270px;
+  width: 250px;
   background-color: white;
   padding-left: 10px;
   }
@@ -421,8 +417,8 @@ padding-left: 10px;
         margin-top: 24vh;
         text-align: left;
         margin-left: 50px;
-        height: 100px;
-      width: 300px;
+        height: 120px;
+      width: 250px;
       background-color: white;
       padding-left: 10px;
       }
@@ -442,9 +438,9 @@ padding-left: 10px;
         position: absolute;
         margin-top: 34vh;
         text-align: left;
-        margin-left: -320px;
+        margin-left: -300px;
         height: 100px;
-        width: 270px;
+        width: 250px;
         padding-left: 10px;
         background-color: white;
         }
@@ -488,8 +484,8 @@ padding-left: 10px;
               text-align: left;
               margin-left: 50px;
               padding-left: 10px;
-              height: 130px;
-            width: 300px;
+              height: 150px;
+            width: 250px;
 background-color: white;
 }
 .one_edu{
@@ -586,7 +582,7 @@ text-align: center;
   margin-top: 80px;
   margin-left: 320px;
   height: 200px;
-  width: 450px;
+  width: 410px;
   text-align: left;
   font-size: 30px;
   background-color: rgb(255, 255, 255);
@@ -597,7 +593,7 @@ text-align: center;
   margin-top: 330px;
   margin-left: 320px;
   height: 150px;
-  width: 450px;
+  width: 410px;
   text-align: left;
   font-size: 30px;
   background-color: rgb(255, 255, 255);
@@ -644,4 +640,11 @@ margin-left: 60%;
 padding-top: 50px;
 width: 400px;
 text-align: center;
+}
+.line{
+  border-left: 4px solid grey;
+  height: 45vh;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 70%;
 }
