@@ -78,7 +78,7 @@ cursor: pointer;
   color: #100303;
 }
 .about{
-  height: 110vh;
+  height: 140vh;
 background-color: white;
 
 }
@@ -662,26 +662,27 @@ position: absolute;
 background-image: url('./left.jpg');
 background-repeat: no-repeat;
 background-size: cover;
-height: 500px;
-width: 500px;
+height: 400px;
+width: 400px;
 margin-left: -70px;
 }
 .right_column{
   position: absolute;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   margin-left: 940px;
   
 }
 .center_column{
   position: absolute;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   margin-left: 400px;
+  
   
 }
 .info{
-  height: 450px;
-  width: 500px;
+  height: 350px;
+  width: 400px;
  
 }

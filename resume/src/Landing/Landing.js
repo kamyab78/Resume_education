@@ -258,26 +258,26 @@ class Landing extends Component {
                     <div id='about_page' className='about'>
                         <h1 className='title_about'>About</h1>
                         <div style={{ height:'74vh' , marginTop:'50px' , width:'70%' , marginLeft:'120px'}}>
-<h1>ddddddddddddd</h1>
-<h1>wwwwwww</h1>
-<h1>ddddddddddddd</h1>
-<h1>wwwwwww</h1>
+<h1 style={{fontSize:'21px'}}>ddddddddddddd</h1>
+<h1 style={{fontSize:'21px'}}>wwwwwww</h1>
+<h1 style={{fontSize:'21px'}}>ddddddddddddd</h1>
+<h1 style={{fontSize:'21px'}}>wwwwwww</h1>
 <div className='left_column'></div>
 <div className='center_column'>
 <div className='info'></div>
-<a style={{color:'white' }} href={chargeSample} download="MaryamGhassemi.pdf"><Button variant="danger" style={{width:'300px' , height:'50px' , marginLeft:'100px'}}>Download Resume</Button></a>
+<a style={{color:'white' }} href={chargeSample} download="MaryamGhassemi.pdf"><Button variant="danger" style={{width:'300px' , height:'50px' , marginLeft:'50px'}}>Download Resume</Button></a>
 </div>
 <div className='right_column'>
     <h1 style={{textAlign:'center' , fontSize:'30px' , color:'black'}}>Hobbies & Interests</h1>
-    <div style={{position:'absolute' , marginTop:'30px' , height:'100px', width:'100px' , backgroundColor:'rgb(167, 157, 157,0.5)',marginLeft:'50px'}}>
+    <div style={{position:'absolute' , marginTop:'30px' , height:'90px', width:'90px' , backgroundColor:'rgb(167, 157, 157,0.5)',marginLeft:'10px'}}>
         <h1 style={{textAlign:'center'}}>🎻</h1>
         <h1 style={{textAlign:'center' , fontSize:'20px' , paddingTop:'5px'}}>Violin</h1>
     </div>
-    <div style={{position:'absolute' , marginTop:'30px' , height:'100px', width:'100px' , backgroundColor:'rgb(167, 157, 157,0.5)',marginLeft:'200px'}}>
+    <div style={{position:'absolute' , marginTop:'30px' , height:'90px', width:'90px' , backgroundColor:'rgb(167, 157, 157,0.5)',marginLeft:'160px'}}>
         <h1 style={{textAlign:'center'}}>📷</h1>
         <h1 style={{textAlign:'center' , fontSize:'15px', paddingTop:'12px'}}>Photography</h1>
     </div>
-    <div style={{position:'absolute' , marginTop:'30px' , height:'100px', width:'100px' , backgroundColor:'rgb(167, 157, 157,0.5)',marginLeft:'350px'}}>
+    <div style={{position:'absolute' , marginTop:'30px' , height:'90px', width:'90px' , backgroundColor:'rgb(167, 157, 157,0.5)',marginLeft:'310px'}}>
         <h1 style={{textAlign:'center'}}>🏐</h1>
         <h1 style={{textAlign:'center' , fontSize:'15px', paddingTop:'12px'}}>Sport</h1>
     </div>
@@ -290,7 +290,7 @@ class Landing extends Component {
                         
                         <div >
                             <div className='title_edu'>Education</div>
-                            <div className='title_pro'>Selecte Project</div>
+                            <div className='title_pro'>Selected Project</div>
                         </div>
                         <div style={{paddingTop:'200px'}}>
                         <div className='line'>
@@ -327,7 +327,7 @@ class Landing extends Component {
                                 <div className='mosalas3'></div>
                                 <div className='char_char'>  
                                     <h1 style={{ fontSize: '23px', fontWeight: 'bold' }}>LL1 Compiler</h1>
-                                    <h1 style={{ fontSize: '17px' }}>pseudo C language. Fall 2018</h1>
+                                    <h1 style={{ fontSize: '17px' }}>for pseudo C language. Fall 2018</h1>
                                     <h1 style={{ fontSize: '13px' }}> Designed and Implement</h1>
                                 </div>
                             </div>
