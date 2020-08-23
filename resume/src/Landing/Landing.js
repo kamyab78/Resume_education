@@ -181,7 +181,7 @@ class Landing extends Component {
     }
     render() {
         return (
-            <div class="row " style={{ backgroundColor: '#f7f7f7', width: '200vh' }}>
+            <div class="row " style={{ backgroundColor: '#f7f7f7', width: '220vh' }}>
                 <Navbar fixed="top" expand="lg" style={{ backgroundColor: 'rgb(128, 128, 128 , 0.5)' }}>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: 'white', color: 'white' }} />
