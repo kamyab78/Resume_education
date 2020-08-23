@@ -328,28 +328,31 @@ width: 400px;
     }
 .line{
   border-left: 4px solid grey;
-  height: 50vh;
+  height: 45vh;
   position: absolute;
-  margin-top: 90px;
-  margin-left: 60%;
+  margin-top: 30px;
+  margin-left: 63%;
 }
 .circle_yek{
   height: 20px;
   width: 20px;
-  border: 4px solid gray;
+  
   border-radius: 100px;
   padding-right: 10px;
   position: absolute;
   margin-left: -13px;
-  background-color: gray;
+  background-color:#f3c623;
+            border:4px solid #f3c623;
   z-index: 100;
 }
 .yek_yek{
   text-align: left;
   margin-left: 50px;
   position: absolute;
-height: 180px;
-width: 400px;
+height: 130px;
+width: 300px;
+background-color: white;
+padding-left: 10px;
 }
 .mosalas{
   position: absolute;
@@ -357,9 +360,141 @@ width: 400px;
     width: 0;
     height: 0;
     border-top: 20px solid transparent;
-    border-right: 30px solid transparent;
+    border-right: 30px solid white;
     border-bottom: 20px solid transparent;
 }
+.do_do{
+  position: absolute;
+  margin-top: 10vh;
+  text-align: left;
+  margin-left: -320px;
+  height: 140px;
+  width: 270px;
+  background-color: white;
+  padding-left: 10px;
+  }
+  .mosalas1{
+   
+    margin-top: 10vh;
+    position: absolute;
+    margin-left: -50px;
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-left: 30px solid white;
+      border-bottom: 20px solid transparent;
+    }
+    .circle_do{
+      height: 20px;
+      width: 20px;
+      
+      border-radius: 100px;
+      padding-right: 10px;
+      position: absolute;
+      margin-left: -13px;
+      z-index: 1;
+      margin-top: 11vh;
+      background-color:#f3c623;
+            border:4px solid #f3c623;
+    }
+    .circle_se{
+      height: 20px;
+      width: 20px;
+      
+      border-radius: 100px;
+      padding-right: 10px;
+      position: absolute;
+      margin-left: -13px;
+      margin-top: 25vh;
+      background-color:#f3c623;
+            border:4px solid #f3c623;
+    }
+    .mosalas2{
+      margin-top: 24vh;
+      position: absolute;
+      margin-left: 20px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-right: 30px solid white;
+        border-bottom: 20px solid transparent;
+      }
+      .se_se{
+        position: absolute;
+        margin-top: 24vh;
+        text-align: left;
+        margin-left: 50px;
+        height: 100px;
+      width: 300px;
+      background-color: white;
+      padding-left: 10px;
+      }
+      .circle_char{
+        height: 20px;
+        width: 20px;
+       
+        border-radius: 100px;
+        padding-right: 10px;
+        position: absolute;
+        margin-left: -13px;
+        margin-top: 35vh;
+        background-color:#f3c623;
+            border:4px solid #f3c623;
+      }
+      .char_char{
+        position: absolute;
+        margin-top: 34vh;
+        text-align: left;
+        margin-left: -320px;
+        height: 100px;
+        width: 270px;
+        padding-left: 10px;
+        background-color: white;
+        }
+        .mosalas3{
+ 
+          margin-top: 34vh;
+          position: absolute;
+          margin-left: -50px;
+            width: 0;
+            height: 0;
+            border-top: 20px solid transparent;
+            border-left: 30px solid white;
+            border-bottom: 20px solid transparent;
+          }
+          .circle_panj{
+            height: 20px;
+            width: 20px;
+            
+            border-radius: 100px;
+            padding-right: 10px;
+            position: absolute;
+            margin-left: -13px;
+            margin-top: 45vh;
+            background-color:#f3c623;
+            border:4px solid #f3c623;
+           
+          }
+          .mosalas4{
+            margin-top: 44vh;
+            position: absolute;
+            margin-left: 20px;
+              width: 0;
+              height: 0;
+              border-top: 20px solid transparent;
+              border-right: 30px solid white;
+              border-bottom: 20px solid transparent;
+            }
+            .panj_panj{
+              position: absolute;
+              margin-top: 44vh;
+              text-align: left;
+              margin-left: 50px;
+              padding-left: 10px;
+              height: 130px;
+            width: 300px;
+            background-color: white;
+            }
 .one_edu{
 position: absolute;
 margin-top:50px;

@@ -140,19 +140,7 @@ class Landing extends Component {
                 $(".circle_four").css("border", "4px solid gray");
                 $(".triangle3").css("border-left", "30px solid transparent");
             });
-            $(".yek_yek").hover(function () {
-                $(this).css("background-color", "white");
-                $(".circle_yek").css("background-color", "#f3c623");
-                $(".circle_yek").css("border", "4px solid #f3c623");
-                $(".circle_yek").css("z-index", "999");
-                $(".mosalas").css("border-right", "30px solid  white");
 
-            }, function () {
-                $(this).css("background-color", "transparent");
-                $(".circle_yek").css("background-color", "gray");
-                $(".circle_yek").css("border", "4px solid gray");
-                $(".mosalas").css("border-right", "30px solid transparent");
-            });
             $(window).scroll(function () {
                 var height = $(window).scrollTop();
                 var sp = document.getElementById("skill_page");
@@ -281,9 +269,46 @@ class Landing extends Component {
                                 <div className='circle_yek'></div>
                                 <div className='mosalas'></div>
                                 <div className='yek_yek'>
-                                    <h1 style={{ fontSize: '30px', lineHeight: '50px', fontWeight: 'bold' }}>Number Classifier Neural Network</h1>
-                                    <h1 style={{ fontSize: '22px' }}>using python . Fall 2019</h1>
-                                    <h1 style={{ fontSize: '18px' }}>Collected Persian handwritten similar to MNIST and Developed</h1>
+                                    <h1 style={{ fontSize: '23px', fontWeight: 'bold' }}>Number Classifier Neural Network</h1>
+                                    <h1 style={{ fontSize: '17px' }}>using python . Fall 2019</h1>
+                                    <h1 style={{ fontSize: '12px' }}>Collected Persian handwritten similar to MNIST and Developed</h1>
+                                </div>
+                            </div>
+                            <div >
+                                <div className='circle_do'></div>
+                                <div className='mosalas1'></div>
+                                <div className='do_do'>
+                                    <h1 style={{ fontSize: '23px', fontWeight: 'bold' }}>Critics and Suggestion System</h1>
+                                    <h1 style={{ fontSize: '17px' }}>using MYSQL as DataBase and SpringBoot . Spring 2019</h1>
+                                    <h1 style={{ fontSize: '13px' }}> Designed</h1>
+                                    
+                                </div>
+                            </div>
+                            <div >
+                                <div className='circle_se'></div>
+                                <div className='mosalas2'></div>
+                                <div className='se_se'>
+                                    <h1 style={{ fontSize: '23px', fontWeight: 'bold' }}>Simple Topic Detectorr</h1>
+                                    <h1 style={{ fontSize: '17px' }}>using MATLAB .Fall 2018</h1>
+                                    <h1 style={{ fontSize: '13px' }}>Developed</h1>
+                                </div>
+                            </div>
+                            <div >
+                                <div className='circle_char'></div>
+                                <div className='mosalas3'></div>
+                                <div className='char_char'>  
+                                    <h1 style={{ fontSize: '23px', fontWeight: 'bold' }}>LL1 Compiler</h1>
+                                    <h1 style={{ fontSize: '17px' }}>pseudo C language. Fall 2018</h1>
+                                    <h1 style={{ fontSize: '13px' }}> Designed and Implement</h1>
+                                </div>
+                            </div>
+                            <div >
+                                <div className='circle_panj'></div>
+                                <div className='mosalas4'></div>
+                                <div className='panj_panj'>
+                                    <h1 style={{ fontSize: '20px', fontWeight: 'bold' }}>Human vocal cords through autocorrelation technique detector using PDA</h1>
+                                    <h1 style={{ fontSize: '17px' }}>AVR processor .Fall 2017</h1>
+                                    <h1 style={{ fontSize: '13px' }}>Developed</h1>
                                 </div>
                             </div>
                         </div>
@@ -345,8 +370,7 @@ class Landing extends Component {
                                 <div className='triangle3'></div>
                                 <div className='char'>   <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>BackEnd Developer</h1>
                                     <h1 style={{ fontSize: '22px' }}>Tapsell . Apr2020 - Now</h1>
-                                    <h1 style={{ fontSize: '18px' }}> which is the first Smart digital
-advertising network in Iran as Backend Developer</h1>
+                                    <h1 style={{ fontSize: '18px' }}> which is the first Smart digital advertising network in Iran as Backend Developer</h1>
                                 </div>
                             </div>
 
