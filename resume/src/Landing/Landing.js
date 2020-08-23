@@ -263,7 +263,12 @@ class Landing extends Component {
                         <div className='col-12 about_page'></div>
                     </div>
                     <div id='education_page' className='education'>
-                        <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Education</h1>
+                        
+                        <div >
+                            <div className='title_edu'>Education</div>
+                            <div className='title_pro'>Selecte Project</div>
+                        </div>
+                        <div style={{paddingTop:'200px'}}>
                         <div className='line'>
                         <div >
                                 <div className='circle_yek'></div>
@@ -330,6 +335,7 @@ class Landing extends Component {
                             <h1 className='edu2_2'>Overall gpa : 19.33/20</h1>
                         </div>
 
+                    </div>
                     </div>
                     <div id='work_page' className='work'>
                         <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Work Exprience</h1>

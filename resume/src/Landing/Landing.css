@@ -493,8 +493,8 @@ padding-left: 10px;
               padding-left: 10px;
               height: 130px;
             width: 300px;
-            background-color: white;
-            }
+background-color: white;
+}
 .one_edu{
 position: absolute;
 margin-top:50px;
@@ -627,4 +627,24 @@ text-align: center;
     border-right:40px solid  white;
    
     border-bottom: 30px solid transparent;
+}
+.title_edu{
+position: absolute;
+border-bottom-color: black;
+border-bottom-style: solid;
+font-size: 40px;
+margin-left: 300px;
+padding-top: 50px;
+width: 300px;
+text-align: center;
+}
+.title_pro{
+  position: absolute;
+  border-bottom-color: black;
+border-bottom-style: solid;
+font-size: 40px;
+margin-left: 53%;
+padding-top: 50px;
+width: 400px;
+text-align: center;
 }
