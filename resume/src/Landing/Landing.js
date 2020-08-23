@@ -2,22 +2,42 @@ import React, { Component } from 'react'
 import './Landing.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
-import jQuery from 'jquery'
 import Linkedin from './linkedin-icon.png'
 import Email from './Other-Mail-Metro-icon.png'
 import Phone from './Phone-icon.png'
 import Skype from './Skype-icon.png'
 import Particles from 'react-particles-js';
-import Back from'./header.png'
-
-import { Navbar, Nav } from 'react-bootstrap';
+import Back from './header.png'
+import { Navbar, Nav , Button } from 'react-bootstrap';
+import chargeSample from './MaryamGhassemi.pdf';
+var ip = ''
 class Landing extends Component {
     componentDidMount() {
         $(document).ready(function () {
             $.getJSON("https://api.ipify.org?format=json",
                 function (data) {
                     console.log(data.ip);
+                    ip = data.ip
                 })
+            setTimeout(function () {
+                var settings = {
+                    "url": "http://127.0.0.1:8000/create/",
+                    "method": "POST",
+                    "timeout": 0,
+                    "headers": {
+                        "accept": "application/json",
+                        "Access-Control-Allow-Origin": "*",
+                        "Access-Control-Allow-Headers": "*",
+                        "Content-Type": "application/json"
+                    },
+                    "data": JSON.stringify({
+                        "ip_address": ip
+                    }),
+                };
+                $.ajax(settings).done(function (response) {
+                    console.log(response)
+                });
+            }, 2000);
             $("#about").click(function () {
                 var elmnt = document.getElementById("about_page");
                 elmnt.scrollIntoView({ behavior: 'smooth' });
@@ -120,11 +140,11 @@ class Landing extends Component {
                 $(".circle_four").css("border", "4px solid gray");
                 $(".triangle3").css("border-left", "30px solid transparent");
             });
+
             $(window).scroll(function () {
                 var height = $(window).scrollTop();
                 var sp = document.getElementById("skill_page");
-                console.log(sp.offsetTop)
-                console.log(height)
+
                 if (height >= sp.offsetTop - 500) {
                     setTimeout(function () {
                         $('#title1').fadeIn('slow')
@@ -160,12 +180,9 @@ class Landing extends Component {
             })
         })
     }
-    scroll_skill() {
-        console.log(1212121212)
-    }
     render() {
         return (
-            <div class="row " style={{ backgroundColor: '#f7f7f7' }}>
+            <div class="row " style={{ backgroundColor: '#f7f7f7', width: '220vh' }}>
                 <Navbar fixed="top" expand="lg" style={{ backgroundColor: 'rgb(128, 128, 128 , 0.5)' }}>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: 'white', color: 'white' }} />
@@ -179,16 +196,14 @@ class Landing extends Component {
                             <Nav.Link id="skill" style={{ color: 'rgb(0, 0, 0 , 0.7)', fontSize: '20px', marginLeft: '25vh' }}>
                                 Skills
                                 </Nav.Link>
-                           
+
                         </Nav>
 
                     </Navbar.Collapse>
                 </Navbar>
-
                 <div class="col-lg-12 main">
-
                     <div className='land'>
-                        
+
                         <div className='land_dark'>
 
                             <Particles height='100vh'
@@ -238,12 +253,95 @@ class Landing extends Component {
 
 
 
-                        </div></div>
+                        </div>
+                        </div>
                     <div id='about_page' className='about'>
-                <div className='col-12 about_page'></div>
-                            </div>
+                        <h1 className='title_about'>About</h1>
+                        <div style={{ height:'74vh' , marginTop:'50px' , width:'70%' , marginLeft:'120px'}}>
+<h1 style={{fontSize:'21px'}}>ddddddddddddd</h1>
+<h1 style={{fontSize:'21px'}}>wwwwwww</h1>
+<h1 style={{fontSize:'21px'}}>ddddddddddddd</h1>
+<h1 style={{fontSize:'21px'}}>wwwwwww</h1>
+<div className='left_column'></div>
+<div className='center_column'>
+<div className='info'></div>
+<a style={{color:'white' }} href={chargeSample} download="MaryamGhassemi.pdf"><Button variant="danger" style={{width:'300px' , height:'50px' , marginLeft:'50px'}}>Download Resume</Button></a>
+</div>
+<div className='right_column'>
+    <h1 style={{textAlign:'center' , fontSize:'30px' , color:'black'}}>Hobbies & Interests</h1>
+    <div style={{position:'absolute' , marginTop:'30px' , height:'90px', width:'90px' , backgroundColor:'rgb(167, 157, 157,0.5)',marginLeft:'10px'}}>
+        <h1 style={{textAlign:'center'}}>🎻</h1>
+        <h1 style={{textAlign:'center' , fontSize:'20px' , paddingTop:'5px'}}>Violin</h1>
+    </div>
+    <div style={{position:'absolute' , marginTop:'30px' , height:'90px', width:'90px' , backgroundColor:'rgb(167, 157, 157,0.5)',marginLeft:'160px'}}>
+        <h1 style={{textAlign:'center'}}>📷</h1>
+        <h1 style={{textAlign:'center' , fontSize:'15px', paddingTop:'12px'}}>Photography</h1>
+    </div>
+    <div style={{position:'absolute' , marginTop:'30px' , height:'90px', width:'90px' , backgroundColor:'rgb(167, 157, 157,0.5)',marginLeft:'310px'}}>
+        <h1 style={{textAlign:'center'}}>🏐</h1>
+        <h1 style={{textAlign:'center' , fontSize:'15px', paddingTop:'12px'}}>Sport</h1>
+    </div>
+</div>
+
+
+                        </div>
+                    </div>
                     <div id='education_page' className='education'>
-                        <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Education</h1>
+                        
+                        <div >
+                            <div className='title_edu'>Education</div>
+                            <div className='title_pro'>Selected Project</div>
+                        </div>
+                        <div style={{paddingTop:'200px'}}>
+                        <div className='line'>
+                        <div >
+                                <div className='circle_yek'></div>
+                                <div className='mosalas'></div>
+                                <div className='yek_yek'>
+                                    <h1 style={{ fontSize: '23px', fontWeight: 'bold' }}>Number Classifier Neural Network</h1>
+                                    <h1 style={{ fontSize: '17px' }}>using python . Fall 2019</h1>
+                                    <h1 style={{ fontSize: '12px' }}>Collected Persian handwritten similar to MNIST and Developed</h1>
+                                </div>
+                            </div>
+                            <div >
+                                <div className='circle_do'></div>
+                                <div className='mosalas1'></div>
+                                <div className='do_do'>
+                                    <h1 style={{ fontSize: '23px', fontWeight: 'bold' }}>Critics and Suggestion System</h1>
+                                    <h1 style={{ fontSize: '17px' }}>using MYSQL as DataBase and SpringBoot . Spring 2019</h1>
+                                    <h1 style={{ fontSize: '13px' }}> Designed</h1>
+                                    
+                                </div>
+                            </div>
+                            <div >
+                                <div className='circle_se'></div>
+                                <div className='mosalas2'></div>
+                                <div className='se_se'>
+                                    <h1 style={{ fontSize: '23px', fontWeight: 'bold' }}>Simple Topic Detectorr</h1>
+                                    <h1 style={{ fontSize: '17px' }}>using MATLAB .Fall 2018</h1>
+                                    <h1 style={{ fontSize: '13px' }}>Developed</h1>
+                                </div>
+                            </div>
+                            <div >
+                                <div className='circle_char'></div>
+                                <div className='mosalas3'></div>
+                                <div className='char_char'>  
+                                    <h1 style={{ fontSize: '23px', fontWeight: 'bold' }}>LL1 Compiler</h1>
+                                    <h1 style={{ fontSize: '17px' }}>for pseudo C language. Fall 2018</h1>
+                                    <h1 style={{ fontSize: '13px' }}> Designed and Implement</h1>
+                                </div>
+                            </div>
+                            <div >
+                                <div className='circle_panj'></div>
+                                <div className='mosalas4'></div>
+                                <div className='panj_panj'>
+                                    <h1 style={{ fontSize: '20px', fontWeight: 'bold' }}>Human vocal cords through autocorrelation technique detector using PDA</h1>
+                                    <h1 style={{ fontSize: '17px' }}>AVR processor .Fall 2017</h1>
+                                    <h1 style={{ fontSize: '13px' }}>Developed</h1>
+                                </div>
+                            </div>
+                        </div>
+
                         <div className='one_edu'><h1>2015-2019</h1></div>
                         <div className='t1'></div>
                         <div className='h1_edu1'>
@@ -261,6 +359,7 @@ class Landing extends Component {
                             <h1 className='edu2_2'>Overall gpa : 19.33/20</h1>
                         </div>
 
+                    </div>
                     </div>
                     <div id='work_page' className='work'>
                         <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Work Exprience</h1>
@@ -301,8 +400,7 @@ class Landing extends Component {
                                 <div className='triangle3'></div>
                                 <div className='char'>   <h1 style={{ fontSize: '38px', lineHeight: '50px', fontWeight: 'bold' }}>BackEnd Developer</h1>
                                     <h1 style={{ fontSize: '22px' }}>Tapsell . Apr2020 - Now</h1>
-                                    <h1 style={{ fontSize: '18px' }}> which is the first Smart digital
-advertising network in Iran as Backend Developer</h1>
+                                    <h1 style={{ fontSize: '18px' }}> which is the first Smart digital advertising network in Iran as Backend Developer</h1>
                                 </div>
                             </div>
 
@@ -310,7 +408,7 @@ advertising network in Iran as Backend Developer</h1>
 
                         </div>
                     </div>
-                    <div id='skill_page' className='skill' onScroll={this.scroll_skill} >
+                    <div id='skill_page' className='skill'  >
 
                         <h1 style={{ borderBottomColor: 'black', borderBottomStyle: 'solid', marginLeft: '100px', paddingTop: '120px ', textAlign: 'center', width: '85%' }}>Skills</h1>
                         <h1 style={{ fontSize: '25px', marginLeft: '160px', marginTop: '20px', display: 'none' }} id='title1'>Progamming Language</h1>
@@ -502,15 +600,10 @@ advertising network in Iran as Backend Developer</h1>
                             </div>
                         </div>
                     </div>
-                   
                 </div>
-
-
             </div>
 
         )
     }
-
-
 }
 export default Landing
