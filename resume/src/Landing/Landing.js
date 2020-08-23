@@ -8,7 +8,8 @@ import Phone from './Phone-icon.png'
 import Skype from './Skype-icon.png'
 import Particles from 'react-particles-js';
 import Back from './header.png'
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav , Button } from 'react-bootstrap';
+import chargeSample from './MaryamGhassemi.pdf';
 var ip = ''
 class Landing extends Component {
     componentDidMount() {
@@ -255,7 +256,35 @@ class Landing extends Component {
                         </div>
                         </div>
                     <div id='about_page' className='about'>
-                        <div className='col-12 about_page'></div>
+                        <h1 className='title_about'>About</h1>
+                        <div style={{ height:'74vh' , marginTop:'50px' , width:'70%' , marginLeft:'120px'}}>
+<h1>ddddddddddddd</h1>
+<h1>wwwwwww</h1>
+<h1>ddddddddddddd</h1>
+<h1>wwwwwww</h1>
+<div className='left_column'></div>
+<div className='center_column'>
+<div className='info'></div>
+<a style={{color:'white' }} href={chargeSample} download="MaryamGhassemi.pdf"><Button variant="danger" style={{width:'300px' , height:'50px' , marginLeft:'100px'}}>Download Resume</Button></a>
+</div>
+<div className='right_column'>
+    <h1 style={{textAlign:'center' , fontSize:'30px' , color:'black'}}>Hobbies & Interests</h1>
+    <div style={{position:'absolute' , marginTop:'30px' , height:'100px', width:'100px' , backgroundColor:'rgb(167, 157, 157,0.5)',marginLeft:'50px'}}>
+        <h1 style={{textAlign:'center'}}>🎻</h1>
+        <h1 style={{textAlign:'center' , fontSize:'20px' , paddingTop:'5px'}}>Violin</h1>
+    </div>
+    <div style={{position:'absolute' , marginTop:'30px' , height:'100px', width:'100px' , backgroundColor:'rgb(167, 157, 157,0.5)',marginLeft:'200px'}}>
+        <h1 style={{textAlign:'center'}}>📷</h1>
+        <h1 style={{textAlign:'center' , fontSize:'15px', paddingTop:'12px'}}>Photography</h1>
+    </div>
+    <div style={{position:'absolute' , marginTop:'30px' , height:'100px', width:'100px' , backgroundColor:'rgb(167, 157, 157,0.5)',marginLeft:'350px'}}>
+        <h1 style={{textAlign:'center'}}>🏐</h1>
+        <h1 style={{textAlign:'center' , fontSize:'15px', paddingTop:'12px'}}>Sport</h1>
+    </div>
+</div>
+
+
+                        </div>
                     </div>
                     <div id='education_page' className='education'>
                         
