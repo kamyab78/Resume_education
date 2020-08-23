@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9abc4f07357876ec5709d35c651789c",
+    "revision": "b1efebe5812bc4819afae9671724c2b1",
     "url": "/resume/index.html"
   },
   {
-    "revision": "c7aa58c2aa525e6bcb83",
+    "revision": "823327a3a879d5ae3d65",
     "url": "/resume/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "263154fb694fda7eb937",
-    "url": "/resume/static/css/main.c8bfa6de.chunk.css"
+    "revision": "7bf656c8097926be4d17",
+    "url": "/resume/static/css/main.a39b801a.chunk.css"
   },
   {
-    "revision": "c7aa58c2aa525e6bcb83",
-    "url": "/resume/static/js/2.e7f874ac.chunk.js"
+    "revision": "823327a3a879d5ae3d65",
+    "url": "/resume/static/js/2.4ced6cdc.chunk.js"
   },
   {
     "revision": "6d1f2c54df40d51a086cb704d80d6d60",
-    "url": "/resume/static/js/2.e7f874ac.chunk.js.LICENSE.txt"
+    "url": "/resume/static/js/2.4ced6cdc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "263154fb694fda7eb937",
-    "url": "/resume/static/js/main.f88c2f6a.chunk.js"
+    "revision": "7bf656c8097926be4d17",
+    "url": "/resume/static/js/main.fd36d284.chunk.js"
   },
   {
     "revision": "8c1d914a1677cea53979",
     "url": "/resume/static/js/runtime-main.75d8c91e.js"
+  },
+  {
+    "revision": "2b25f5664a0360395b8235765508cea5",
+    "url": "/resume/static/media/MaryamGhassemi.2b25f566.pdf"
   },
   {
     "revision": "a868678ed693a95ca673c20fdaebeaa4",
@@ -42,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0f6d7551a0c01973178d32c0ae938f29",
     "url": "/resume/static/media/header.0f6d7551.png"
+  },
+  {
+    "revision": "99db28b58472f813b80c46a292e3daab",
+    "url": "/resume/static/media/left.99db28b5.jpg"
   }
 ]);
