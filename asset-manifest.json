@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.a39b801a.chunk.css",
-    "main.js": "/resume/static/js/main.fd36d284.chunk.js",
-    "main.js.map": "/resume/static/js/main.fd36d284.chunk.js.map",
+    "main.css": "/resume/static/css/main.27d104ba.chunk.css",
+    "main.js": "/resume/static/js/main.7eacd277.chunk.js",
+    "main.js.map": "/resume/static/js/main.7eacd277.chunk.js.map",
     "runtime-main.js": "/resume/static/js/runtime-main.75d8c91e.js",
     "runtime-main.js.map": "/resume/static/js/runtime-main.75d8c91e.js.map",
     "static/css/2.11829350.chunk.css": "/resume/static/css/2.11829350.chunk.css",
-    "static/js/2.4ced6cdc.chunk.js": "/resume/static/js/2.4ced6cdc.chunk.js",
-    "static/js/2.4ced6cdc.chunk.js.map": "/resume/static/js/2.4ced6cdc.chunk.js.map",
+    "static/js/2.7bcc4b63.chunk.js": "/resume/static/js/2.7bcc4b63.chunk.js",
+    "static/js/2.7bcc4b63.chunk.js.map": "/resume/static/js/2.7bcc4b63.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.a9d1a79b5c7273b31cbf4c6b0cb4af61.js": "/resume/precache-manifest.a9d1a79b5c7273b31cbf4c6b0cb4af61.js",
+    "precache-manifest.a516aa8e71f6e040a25555efe63f37ec.js": "/resume/precache-manifest.a516aa8e71f6e040a25555efe63f37ec.js",
     "service-worker.js": "/resume/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/resume/static/css/2.11829350.chunk.css.map",
-    "static/css/main.a39b801a.chunk.css.map": "/resume/static/css/main.a39b801a.chunk.css.map",
-    "static/js/2.4ced6cdc.chunk.js.LICENSE.txt": "/resume/static/js/2.4ced6cdc.chunk.js.LICENSE.txt",
-    "static/media/MaryamGhassemi.pdf": "/resume/static/media/MaryamGhassemi.2b25f566.pdf",
+    "static/css/main.27d104ba.chunk.css.map": "/resume/static/css/main.27d104ba.chunk.css.map",
+    "static/js/2.7bcc4b63.chunk.js.LICENSE.txt": "/resume/static/js/2.7bcc4b63.chunk.js.LICENSE.txt",
+    "static/media/MaryamGhassemi.pdf": "/resume/static/media/MaryamGhassemi.4e7b3890.pdf",
     "static/media/Phone-icon.png": "/resume/static/media/Phone-icon.a868678e.png",
     "static/media/Skype-icon.png": "/resume/static/media/Skype-icon.e708064a.png",
     "static/media/Landing.css": "/resume/static/media/left.99db28b5.jpg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.75d8c91e.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.4ced6cdc.chunk.js",
-    "static/css/main.a39b801a.chunk.css",
-    "static/js/main.fd36d284.chunk.js"
+    "static/js/2.7bcc4b63.chunk.js",
+    "static/css/main.27d104ba.chunk.css",
+    "static/js/main.7eacd277.chunk.js"
   ]
 }
